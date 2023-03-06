@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for os-content" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../maven/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
+        </processorPath>
+        <module name="os-content-service" />
+        <module name="os-content-model" />
+        <module name="os-content-api" />
+        <module name="os-base" />
+        <module name="os-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="os-base" target="1.8" />
+      <module name="os-content" target="1.8" />
+      <module name="os-content-api" target="1.8" />
+      <module name="os-content-model" target="1.8" />
+      <module name="os-content-service" target="1.8" />
+      <module name="os-generator" target="1.8" />
+      <module name="os-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="os-base" options="" />
+      <module name="os-content" options="" />
+      <module name="os-content-api" options="" />
+      <module name="os-content-model" options="" />
+      <module name="os-content-service" options="" />
+      <module name="os-generator" options="" />
+      <module name="os-parent" options="" />
+    </option>
+  </component>
+</project>

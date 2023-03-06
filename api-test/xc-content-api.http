@@ -1,0 +1,9 @@
+### 课程查询api
+POST {{content_host}}/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+
+{
+  "auditStatus": "",
+  "courseName": "",
+  "publishStatus": "203001"
+}

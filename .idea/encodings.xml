@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../maven/repository/org/springframework/boot/spring-boot-starter-parent/2.6.11/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-content/os-content-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-content/os-content-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-content/os-content-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-content/os-content-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-content/os-content-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-content/os-content-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-content/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-content/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-parent/os-content/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/os-parent/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

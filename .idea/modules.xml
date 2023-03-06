@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/online-study.iml" filepath="$PROJECT_DIR$/.idea/online-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-base/os-base.iml" filepath="$PROJECT_DIR$/os-base/os-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-content/os-content.iml" filepath="$PROJECT_DIR$/os-content/os-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-content/os-content-api/os-content-api.iml" filepath="$PROJECT_DIR$/os-content/os-content-api/os-content-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-content/os-content-model/os-content-model.iml" filepath="$PROJECT_DIR$/os-content/os-content-model/os-content-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-content/os-content-service/os-content-service.iml" filepath="$PROJECT_DIR$/os-content/os-content-service/os-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-generator/os-generator.iml" filepath="$PROJECT_DIR$/os-generator/os-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-parent/os-parent.iml" filepath="$PROJECT_DIR$/os-parent/os-parent.iml" />
+    </modules>
+  </component>
+</project>
