@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/os-content/os-content-model/pom.xml" />
         <option value="$PROJECT_DIR$/os-content/os-content-service/pom.xml" />
         <option value="$PROJECT_DIR$/os-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/os-system/pom.xml" />
       </list>
     </option>
   </component>

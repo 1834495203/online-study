@@ -19,6 +19,9 @@
         <module name="os-content-model" />
         <module name="os-content-api" />
         <module name="os-base" />
+        <module name="os-system-service" />
+        <module name="os-system-api" />
+        <module name="os-system-model" />
         <module name="os-generator" />
       </profile>
     </annotationProcessing>
@@ -30,6 +33,10 @@
       <module name="os-content-service" target="1.8" />
       <module name="os-generator" target="1.8" />
       <module name="os-parent" target="1.8" />
+      <module name="os-system" target="1.8" />
+      <module name="os-system-api" target="1.8" />
+      <module name="os-system-model" target="1.8" />
+      <module name="os-system-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

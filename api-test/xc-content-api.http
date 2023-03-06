@@ -7,3 +7,11 @@ Content-Type: application/json
   "courseName": "",
   "publishStatus": "203001"
 }
+
+### 查询数据字典api
+GET {{system_host}}/system/dictionary/all
+Content-Type: application/json
+
+### 查询课程全部类型
+GET {{content_host}}/content/course-category/tree-nodes
+Content-Type: application/json
