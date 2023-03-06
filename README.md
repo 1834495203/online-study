@@ -1,2 +1,2 @@
 # online-study
-# studying
+## studying only
