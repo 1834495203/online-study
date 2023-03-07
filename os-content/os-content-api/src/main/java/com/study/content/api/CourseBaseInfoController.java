@@ -2,6 +2,8 @@ package com.study.content.api;
 
 import com.study.base.model.PageParams;
 import com.study.base.model.PageResult;
+import com.study.content.model.dto.AddCourseDto;
+import com.study.content.model.dto.CourseBaseInfoDto;
 import com.study.content.model.dto.QueryCourseParamsDto;
 import com.study.content.model.po.CourseBase;
 import com.study.content.service.CourseBaseInfoService;
@@ -24,5 +26,16 @@ public class CourseBaseInfoController {
     @RequestMapping(value = "/course/list", method = RequestMethod.POST)
     public PageResult<CourseBase> list(PageParams params, @RequestBody QueryCourseParamsDto queryCourseParamsDto){
         return courseBaseInfoService.queryCourseBaseList(params, queryCourseParamsDto);
+    }
+
+    @ApiOperation("新增课程")
+    @RequestMapping(value = "/course", method = RequestMethod.POST)
+    public CourseBaseInfoDto createCourseBase(@RequestBody AddCourseDto addCourseDto){
+
+        //TODO 获取当前用户的培训机构的id
+        Long companyId = 22L;
+
+        //调用service
+        return courseBaseInfoService.createCourseBase(companyId, addCourseDto);
     }
 }

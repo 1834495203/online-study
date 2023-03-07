@@ -15,3 +15,26 @@ Content-Type: application/json
 ### 查询课程全部类型
 GET {{content_host}}/content/course-category/tree-nodes
 Content-Type: application/json
+
+### 添加课程信息
+POST {{content_host}}/content/course
+Content-Type: application/json
+
+{
+  "charge": "201001",
+  "description": "测试一下而已",
+  "grade": "204001",
+  "mt": "1-9",
+  "name": "电子工程测试",
+  "originalPrice": 19998,
+  "phone": "114514",
+  "pic": "",
+  "price": 18888,
+  "qq": "112344556",
+  "st": "1-9-2",
+  "tags": "teach",
+  "teachmode": "200002",
+  "users": "测试人员",
+  "validDays": 365,
+  "wechat": "pp444"
+}
