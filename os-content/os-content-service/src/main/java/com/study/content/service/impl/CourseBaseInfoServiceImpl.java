@@ -3,12 +3,15 @@ package com.study.content.service.impl;
 import cn.hutool.core.bean.BeanUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.study.base.exception.CommonError;
+import com.study.base.exception.OSException;
 import com.study.base.model.PageParams;
 import com.study.base.model.PageResult;
 import com.study.content.mapper.CourseBaseMapper;
 import com.study.content.mapper.CourseCategoryMapper;
 import com.study.content.mapper.CourseMarketMapper;
 import com.study.content.model.dto.AddCourseDto;
+import com.study.content.model.dto.AlterCourseDto;
 import com.study.content.model.dto.CourseBaseInfoDto;
 import com.study.content.model.dto.QueryCourseParamsDto;
 import com.study.content.model.po.CourseBase;
@@ -21,6 +24,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -36,6 +40,9 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
     @Autowired
     private CourseCategoryMapper courseCategoryMapper;
+
+    @Autowired
+    private CourseMarketServiceImpl courseMarketService;
 
     @Override
     public PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto) {
@@ -113,27 +120,15 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         BeanUtil.copyProperties(dto, courseMarket);
         courseMarket.setId(id);
 
-        //校验如果课程要收费, 则价格必须输入
-        String charge = dto.getCharge();
-        if (charge.equals("201001") && courseMarket.getPrice() <= 0)
-            throw new RuntimeException("课程为收费时价格必须输入");
-
-        //向营销表中插入一条数据
-        int market = courseMarketMapper.insert(courseMarket);
-
-        if (market <= 0 || base <= 0) throw new RuntimeException("提交失败");
+        int i = this.saveCourseMarket(courseMarket);
+        if (i <= 0 || base <= 0) throw new RuntimeException("提交失败");
 
         //组装要返回的结果
-
         return getCourseBaseInfo(courseBase.getId());
     }
 
-    /**
-     * 根据id查询课程的基本信息与营销信息
-     * @param courseId 课程id
-     * @return 全部课程信息
-     */
-    public CourseBaseInfoDto getCourseBaseInfo(Long courseId){
+    @Override
+    public CourseBaseInfoDto getCourseBaseInfo(Long courseId) {
         //基本信息
         CourseBase courseBase = courseBaseMapper.selectById(courseId);
         //营销信息
@@ -164,5 +159,50 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         }
 
         return courseBaseInfoDto;
+    }
+
+    @Override
+    public CourseBaseInfoDto updateCourseBase(Long companyId, AlterCourseDto alterCourseDto) {
+
+        //校验
+        Long id = alterCourseDto.getId();
+        CourseBase courseBase = courseBaseMapper.selectById(id);
+        if (courseBase == null) OSException.cast(CommonError.OBJECT_NULL);
+
+        //封装基本信息的数据
+        BeanUtil.copyProperties(alterCourseDto, courseBase);
+        courseBase.setChangeDate(LocalDateTime.now());
+
+        //更新课程基本信息
+        courseBaseMapper.updateById(courseBase);
+
+        //验证本机构只能修改本机构的课程
+        if (!courseBase.getCompanyId().equals(companyId))
+            OSException.cast("本机构只能修改本机构的课程");
+
+        //封装营销消息的数据
+        CourseMarket courseMarket = new CourseMarket();
+        BeanUtil.copyProperties(alterCourseDto, courseMarket);
+
+        //校验如果课程要收费, 则价格必须输入
+        String charge = alterCourseDto.getCharge();
+        if (charge.equals("201001") && courseMarket.getPrice() <= 0)
+            throw new OSException("课程为收费时价格必须输入");
+
+        //对营销表有则更新, 没有则添加
+        this.saveCourseMarket(courseMarket);
+        return getCourseBaseInfo(id);
+    }
+
+    private int saveCourseMarket(CourseMarket courseMarket){
+        //校验如果课程要收费, 则价格必须输入
+        String charge = courseMarket.getCharge();
+        if (StringUtils.isBlank(charge)) OSException.cast("收费规则没有选择");
+        if (charge.equals("201001") && courseMarket.getPrice() <= 0)
+            throw new OSException("课程为收费时价格必须输入");
+
+        //对营销表有则更新, 没有则添加
+        boolean b = courseMarketService.saveOrUpdate(courseMarket);
+        return b ? 1 : 0;
     }
 }

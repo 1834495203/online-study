@@ -4,6 +4,7 @@ import com.study.base.exception.ValidationGroups;
 import com.study.base.model.PageParams;
 import com.study.base.model.PageResult;
 import com.study.content.model.dto.AddCourseDto;
+import com.study.content.model.dto.AlterCourseDto;
 import com.study.content.model.dto.CourseBaseInfoDto;
 import com.study.content.model.dto.QueryCourseParamsDto;
 import com.study.content.model.po.CourseBase;
@@ -12,10 +13,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @Api(value = "课程管理相关接口", tags = "课程管理相关接口")
@@ -41,5 +39,21 @@ public class CourseBaseInfoController {
 
         //调用service
         return courseBaseInfoService.createCourseBase(companyId, addCourseDto);
+    }
+
+    @ApiOperation("通过id获取课程信息")
+    @RequestMapping(value = "/course/{courseId}", method = RequestMethod.GET)
+    public CourseBaseInfoDto getCourseBaseById(@PathVariable Long courseId){
+        return courseBaseInfoService.getCourseBaseInfo(courseId);
+    }
+
+    @ApiOperation("修改课程信息")
+    @RequestMapping(value = "/course", method = RequestMethod.PUT)
+    public CourseBaseInfoDto updateCourseBase(@RequestBody AlterCourseDto alterCourseDto){
+
+        //TODO 获取当前用户的培训机构的id
+        Long companyId = 22L;
+
+        return courseBaseInfoService.updateCourseBase(companyId, alterCourseDto);
     }
 }

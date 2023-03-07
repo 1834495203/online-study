@@ -41,4 +41,9 @@ class CourseBaseInfoServiceImplTest {
         DateTime dateTime = new DateTime(System.currentTimeMillis());
         System.out.println(dateTime.between(of, DateUnit.DAY));
     }
+
+    @Test
+    void getCourseBaseInfo() {
+        System.out.println("courseBaseInfoService.getCourseBaseInfo(118L) = " + courseBaseInfoService.getCourseBaseInfo(118L));
+    }
 }
