@@ -25,7 +25,7 @@ Content-Type: application/json
   "description": "测试一下而已",
   "grade": "204001",
   "mt": "1-9",
-  "name": "电子工程测试",
+  "name": "x",
   "originalPrice": 19998,
   "phone": "114514",
   "pic": "",
@@ -34,7 +34,7 @@ Content-Type: application/json
   "st": "1-9-2",
   "tags": "teach",
   "teachmode": "200002",
-  "users": "测试人员",
+  "users": "",
   "validDays": 365,
   "wechat": "pp444"
 }

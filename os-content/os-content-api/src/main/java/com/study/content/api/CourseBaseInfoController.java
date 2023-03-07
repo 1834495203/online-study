@@ -1,5 +1,6 @@
 package com.study.content.api;
 
+import com.study.base.exception.ValidationGroups;
 import com.study.base.model.PageParams;
 import com.study.base.model.PageResult;
 import com.study.content.model.dto.AddCourseDto;
@@ -10,6 +11,7 @@ import com.study.content.service.CourseBaseInfoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -30,8 +32,10 @@ public class CourseBaseInfoController {
 
     @ApiOperation("新增课程")
     @RequestMapping(value = "/course", method = RequestMethod.POST)
-    public CourseBaseInfoDto createCourseBase(@RequestBody AddCourseDto addCourseDto){
-
+    //@Validated 注解开启了JSR303校验, 如不符合则抛出MethodArgumentNotValidException异常
+    public CourseBaseInfoDto createCourseBase(@RequestBody
+                                                  @Validated(value = ValidationGroups.Insert.class)
+                                                          AddCourseDto addCourseDto){
         //TODO 获取当前用户的培训机构的id
         Long companyId = 22L;
 
