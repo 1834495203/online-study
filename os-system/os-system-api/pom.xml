@@ -12,6 +12,12 @@
     <description>os-system-api</description>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.study</groupId>
             <artifactId>os-system-model</artifactId>
