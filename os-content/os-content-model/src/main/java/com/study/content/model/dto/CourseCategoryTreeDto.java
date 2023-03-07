@@ -14,5 +14,6 @@ import java.util.List;
 @Data
 @EqualsAndHashCode(callSuper = true)
 public class CourseCategoryTreeDto extends CourseCategory {
-    List<CourseCategory> childrenTreeNodes;
+    //子分类
+    private List<CourseCategoryTreeDto> childrenTreeNodes;
 }

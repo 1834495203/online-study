@@ -40,7 +40,7 @@ public class CourseCategoryServiceImpl implements CourseCategoryService {
             String parent_id = item.getParentid();
             CourseCategoryTreeDto parentNode = nodeMap.get(parent_id);
             if (parentNode != null){
-                List<CourseCategory> childrenTreeNodes = parentNode.getChildrenTreeNodes();
+                List<CourseCategoryTreeDto> childrenTreeNodes = parentNode.getChildrenTreeNodes();
                 if (childrenTreeNodes == null){
                     parentNode.setChildrenTreeNodes(new ArrayList<>());
                 }
