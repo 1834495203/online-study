@@ -1,0 +1,9 @@
+### 上传文件
+POST {{media_host}}/media/upload/courseFile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="header.jpg"
+Content-Type: application/octet-stream
+
+< d:\header.jpg
