@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: media-service
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+        group: os
+      config:
+        namespace: d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+        group: os
+        file-extension: yaml
+        refresh-enabled: true
+
+#profiles默认为dev
+  profiles:
+    active: dev
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+
+
+

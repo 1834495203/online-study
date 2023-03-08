@@ -4,6 +4,8 @@ server:
   port: 63110
 #微服务配置
 spring:
+  profiles:
+    active: dev
   application:
     name: system-api
   cloud:
@@ -12,15 +14,28 @@ spring:
       discovery:
         namespace: d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
         group: os
+      config:
+        group: os
+        namespace: d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs: # 配置拓展配置文件
+          - data-id: system-service-${spring.profiles.active}.yaml
+            group: os
+            refresh: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: common
+            refresh: true
 
 # 日志文件配置路径
 logging:
   config: classpath:log4j2-dev.xml
 
 # swagger 文档配置
-swagger:
-  title: "学成在线内容管理系统"
-  description: "内容系统管理系统对课程相关信息进行业务管理数据"
-  base-package: com.xuecheng.content
-  enabled: true
-  version: 1.0.0
+#swagger:
+#  title: "学成在线内容管理系统"
+#  description: "内容系统管理系统对课程相关信息进行业务管理数据"
+#  base-package: com.xuecheng.content
+#  enabled: true
+#  version: 1.0.0

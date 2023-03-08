@@ -11,6 +11,7 @@ import org.apache.ibatis.annotations.Mapper;
  *
  * @author GLaDOS
  */
+@Mapper
 public interface DictionaryMapper extends BaseMapper<Dictionary> {
 
 }

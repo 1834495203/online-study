@@ -21,17 +21,26 @@
         <module name="os-base" />
         <module name="os-system-service" />
         <module name="os-system-api" />
+        <module name="os-media-api" />
         <module name="os-system-model" />
+        <module name="os-media-service" />
         <module name="os-generator" />
+        <module name="os-media-model" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gateway" target="1.8" />
       <module name="os-base" target="1.8" />
       <module name="os-content" target="1.8" />
       <module name="os-content-api" target="1.8" />
       <module name="os-content-model" target="1.8" />
       <module name="os-content-service" target="1.8" />
       <module name="os-generator" target="1.8" />
+      <module name="os-media" target="1.8" />
+      <module name="os-media-api" target="1.8" />
+      <module name="os-media-model" target="1.8" />
+      <module name="os-media-service" target="1.8" />
       <module name="os-parent" target="1.8" />
       <module name="os-system" target="1.8" />
       <module name="os-system-api" target="1.8" />
@@ -41,6 +50,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway" options="" />
       <module name="os-base" options="" />
       <module name="os-content" options="" />
       <module name="os-content-api" options="" />

@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+        group: os
+      config:
+        namespace: d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+        group: os
+        file-extension: yaml
+        refresh-enabled: true
+#        shared-configs:
+#          - data-id: logging-${spring.profiles.active}.yaml
+#            group: os
+#            refresh: true
+  profiles:
+    active: dev
+logging:
+  config: classpath:log4j2-dev.xml

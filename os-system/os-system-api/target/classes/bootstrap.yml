@@ -4,14 +4,29 @@ server:
   port: 63110
 #微服务配置
 spring:
+  profiles:
+    active: dev
   application:
     name: system-api
   cloud:
     nacos:
       server-addr: localhost:8848
       discovery:
-#        namespace: d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+        namespace: d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
         group: os
+      config:
+        group: os
+        namespace: d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs: # 配置拓展配置文件
+          - data-id: system-service-${spring.profiles.active}.yaml
+            group: os
+            refresh: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: common
+            refresh: true
 
 # 日志文件配置路径
 logging:

@@ -1,0 +1,386 @@
+2023-03-08 10:58:46,909 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-08 10:58:46,909 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-08 10:58:46,924 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-08 10:58:46,924 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-08 10:58:46,940 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-08 10:58:46,940 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-08 10:58:46,940 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-08 10:58:46,940 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-08 10:58:46,940 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-08 10:58:46,940 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-08 10:58:46,940 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-08 10:58:46,940 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-08 10:58:46,940 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-08 10:58:46,940 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-08 10:58:46,971 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-08 10:58:46,971 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-08 10:58:47,143 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-08 10:58:48,752 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-03-08 10:58:48,752 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-03-08 10:58:49,471 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-08 10:58:49,471 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-08 10:58:49,487 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.system.mapper]' package. Please check your configuration.
+2023-03-08 10:58:49,487 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.system.mapper]' package. Please check your configuration.
+2023-03-08 10:58:49,549 INFO [main][GenericScope.java:295] - BeanFactory id=10e580eb-4f40-3cdc-95ac-dd528acf698d
+2023-03-08 10:58:49,549 INFO [main][GenericScope.java:295] - BeanFactory id=10e580eb-4f40-3cdc-95ac-dd528acf698d
+2023-03-08 10:58:49,815 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-03-08 10:58:49,815 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-03-08 10:58:49,831 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-03-08 10:58:49,831 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-03-08 10:58:49,831 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-03-08 10:58:49,831 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-03-08 10:58:49,831 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-03-08 10:58:49,831 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-03-08 10:58:49,987 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-03-08 10:58:49,987 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-03-08 10:58:49,987 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1219 ms
+2023-03-08 10:58:49,987 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1219 ms
+2023-03-08 10:58:50,096 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-08 10:58:50,096 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-08 10:58:50,159 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@2538bc06'
+2023-03-08 10:58:50,159 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@2538bc06'
+2023-03-08 10:58:50,159 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-03-08 10:58:50,159 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-03-08 10:58:50,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.insert
+2023-03-08 10:58:50,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.insert
+2023-03-08 10:58:50,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.delete
+2023-03-08 10:58:50,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.delete
+2023-03-08 10:58:50,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteByMap
+2023-03-08 10:58:50,784 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteByMap
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteById
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteById
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteBatchIds
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteBatchIds
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.update
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.update
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.updateById
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.updateById
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectById
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectById
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectBatchIds
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectBatchIds
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectByMap
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectByMap
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectOne
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectOne
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectCount
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectCount
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectMaps
+2023-03-08 10:58:50,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectMaps
+2023-03-08 10:58:50,831 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectMapsPage
+2023-03-08 10:58:50,831 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectMapsPage
+2023-03-08 10:58:50,831 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectObjs
+2023-03-08 10:58:50,831 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectObjs
+2023-03-08 10:58:50,831 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectList
+2023-03-08 10:58:50,831 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectList
+2023-03-08 10:58:50,831 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectPage
+2023-03-08 10:58:50,831 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectPage
+2023-03-08 10:58:51,128 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-08 10:58:51,128 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-08 10:58:51,159 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-08 10:58:51,159 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-08 10:58:51,159 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-08 10:58:51,159 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-08 10:58:51,159 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-08 10:58:51,159 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-08 10:58:51,159 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-08 10:58:51,159 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-08 10:58:51,190 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-08 10:58:51,190 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-08 10:58:51,190 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-08 10:58:51,190 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-08 10:58:51,190 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-08 10:58:51,190 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-08 10:58:51,190 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-08 10:58:51,190 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-08 10:58:51,190 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-08 10:58:51,190 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-08 10:58:51,190 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-08 10:58:51,190 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-08 10:58:51,190 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-08 10:58:51,190 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-08 10:58:51,190 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-08 10:58:51,190 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-08 10:58:51,190 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-08 10:58:51,190 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-08 10:58:51,190 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-08 10:58:51,190 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-08 10:58:51,190 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-08 10:58:51,237 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-08 10:58:51,237 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-08 10:58:52,737 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-08 10:58:52,737 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-08 10:58:52,737 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-08 10:58:52,737 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-08 10:58:52,784 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2023-03-08 10:58:52,784 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2023-03-08 10:58:54,190 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-08 10:58:54,190 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-08 10:59:00,488 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2023-03-08 10:59:00,488 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2023-03-08 10:59:00,504 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-03-08 10:59:00,504 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-03-08 10:59:04,833 WARN [Thread-29][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-03-08 10:59:04,848 WARN [Thread-23][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-08 10:59:04,848 WARN [Thread-23][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-08 10:59:04,833 WARN [Thread-29][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-03-08 10:59:04,848 WARN [Thread-29][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-03-08 10:59:04,848 WARN [Thread-29][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-03-08 10:59:04,848 WARN [Thread-23][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-03-08 10:59:04,848 WARN [Thread-23][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-03-08 10:59:06,676 ERROR [main][NacosServiceRegistry.java:80] - nacos registry, system-service register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='d25b7fdd-7f3d-49df-a8f3-4874309f1fd2', watchDelay=30000, logName='', service='system-service', weight=1.0, clusterName='DEFAULT', group='os', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.147.1', networkInterface='', port=63110, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}},
+ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:556)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:246)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:212)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:74)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.study.system.SystemApplication.main(SystemApplication.java:21)
+2023-03-08 10:59:06,676 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2023-03-08 10:59:06,676 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-03-08 10:59:06,676 ERROR [main][NacosServiceRegistry.java:80] - nacos registry, system-service register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='d25b7fdd-7f3d-49df-a8f3-4874309f1fd2', watchDelay=30000, logName='', service='system-service', weight=1.0, clusterName='DEFAULT', group='os', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.147.1', networkInterface='', port=63110, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}},
+ErrCode:500, ErrMsg:failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:556)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:246)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:212)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:74)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.study.system.SystemApplication.main(SystemApplication.java:21)
+2023-03-08 10:59:06,676 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2023-03-08 10:59:06,676 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-03-08 10:59:15,768 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-08 10:59:15,768 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-08 10:59:23,880 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-08 10:59:23,880 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-08 10:59:23,880 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-08 10:59:23,880 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-08 10:59:23,896 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-08 10:59:23,896 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-08 10:59:23,896 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-08 10:59:23,896 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-08 10:59:23,896 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-08 10:59:23,896 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-08 10:59:23,896 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-08 10:59:23,896 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-08 10:59:23,910 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-08 10:59:23,910 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-08 10:59:23,942 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-08 10:59:23,942 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-08 10:59:24,196 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-08 10:59:24,196 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-08 10:59:24,209 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-08 10:59:24,209 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-08 10:59:24,209 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-08 10:59:24,209 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-08 10:59:24,209 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-08 10:59:24,209 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-08 10:59:24,210 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-08 10:59:24,210 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-08 10:59:24,210 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-08 10:59:24,210 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-08 10:59:25,943 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-03-08 10:59:25,943 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-03-08 10:59:26,641 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-08 10:59:26,641 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-08 10:59:26,642 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.system.mapper]' package. Please check your configuration.
+2023-03-08 10:59:26,642 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.system.mapper]' package. Please check your configuration.
+2023-03-08 10:59:26,716 INFO [main][GenericScope.java:295] - BeanFactory id=10e580eb-4f40-3cdc-95ac-dd528acf698d
+2023-03-08 10:59:26,716 INFO [main][GenericScope.java:295] - BeanFactory id=10e580eb-4f40-3cdc-95ac-dd528acf698d
+2023-03-08 10:59:26,995 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-03-08 10:59:26,995 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2023-03-08 10:59:26,995 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-03-08 10:59:26,995 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2023-03-08 10:59:26,995 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-03-08 10:59:26,995 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-03-08 10:59:26,995 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-03-08 10:59:26,995 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-03-08 10:59:27,121 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-03-08 10:59:27,121 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-03-08 10:59:27,122 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1164 ms
+2023-03-08 10:59:27,122 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1164 ms
+2023-03-08 10:59:27,311 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-08 10:59:27,311 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-08 10:59:27,370 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@61ecbee9'
+2023-03-08 10:59:27,370 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@61ecbee9'
+2023-03-08 10:59:27,371 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-03-08 10:59:27,371 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-03-08 10:59:27,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.insert
+2023-03-08 10:59:27,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.insert
+2023-03-08 10:59:27,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.delete
+2023-03-08 10:59:27,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.delete
+2023-03-08 10:59:28,000 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteByMap
+2023-03-08 10:59:28,000 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteByMap
+2023-03-08 10:59:28,019 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteById
+2023-03-08 10:59:28,019 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteById
+2023-03-08 10:59:28,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteBatchIds
+2023-03-08 10:59:28,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.deleteBatchIds
+2023-03-08 10:59:28,025 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.update
+2023-03-08 10:59:28,025 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.update
+2023-03-08 10:59:28,027 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.updateById
+2023-03-08 10:59:28,027 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.updateById
+2023-03-08 10:59:28,028 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectById
+2023-03-08 10:59:28,028 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectById
+2023-03-08 10:59:28,029 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectBatchIds
+2023-03-08 10:59:28,029 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectBatchIds
+2023-03-08 10:59:28,031 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectByMap
+2023-03-08 10:59:28,031 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectByMap
+2023-03-08 10:59:28,032 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectOne
+2023-03-08 10:59:28,032 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectOne
+2023-03-08 10:59:28,034 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectCount
+2023-03-08 10:59:28,034 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectCount
+2023-03-08 10:59:28,036 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectMaps
+2023-03-08 10:59:28,036 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectMaps
+2023-03-08 10:59:28,038 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectMapsPage
+2023-03-08 10:59:28,038 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectMapsPage
+2023-03-08 10:59:28,039 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectObjs
+2023-03-08 10:59:28,039 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectObjs
+2023-03-08 10:59:28,041 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectList
+2023-03-08 10:59:28,041 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectList
+2023-03-08 10:59:28,043 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectPage
+2023-03-08 10:59:28,043 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.system.mapper.DictionaryMapper.selectPage
+2023-03-08 10:59:28,337 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-08 10:59:28,337 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-08 10:59:28,364 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-08 10:59:28,364 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-08 10:59:28,364 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-08 10:59:28,364 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-08 10:59:28,367 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-08 10:59:28,367 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-08 10:59:28,367 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-08 10:59:28,367 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-08 10:59:28,381 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-08 10:59:28,381 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-08 10:59:28,383 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-08 10:59:28,383 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-08 10:59:28,384 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-08 10:59:28,384 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-08 10:59:28,384 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-08 10:59:28,384 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-08 10:59:28,385 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-08 10:59:28,385 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-08 10:59:28,385 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-08 10:59:28,385 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-08 10:59:28,385 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-08 10:59:28,385 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-08 10:59:28,386 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-08 10:59:28,386 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-08 10:59:28,386 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-08 10:59:28,386 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-08 10:59:28,386 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-08 10:59:28,386 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-08 10:59:28,387 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-08 10:59:28,387 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-08 10:59:28,388 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-08 10:59:28,388 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-08 10:59:28,388 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-08 10:59:28,388 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-08 10:59:28,388 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-08 10:59:28,388 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-08 10:59:28,388 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-08 10:59:28,388 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-08 10:59:28,389 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-08 10:59:28,389 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-08 10:59:28,448 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-08 10:59:28,448 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-08 10:59:29,927 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-08 10:59:29,927 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-08 10:59:29,930 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-08 10:59:29,930 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-08 10:59:29,982 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2023-03-08 10:59:29,982 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2023-03-08 10:59:31,406 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-08 10:59:31,406 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-08 10:59:31,598 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2023-03-08 10:59:31,598 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2023-03-08 10:59:31,625 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-03-08 10:59:31,625 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2023-03-08 10:59:31,644 INFO [main][NacosServiceRegistry.java:75] - nacos registry, os system-service 192.168.147.1:63110 register finished
+2023-03-08 10:59:31,644 INFO [main][NacosServiceRegistry.java:75] - nacos registry, os system-service 192.168.147.1:63110 register finished
+2023-03-08 10:59:32,117 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@6ff0ad5e will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5b0dbfb
+2023-03-08 10:59:32,117 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@6ff0ad5e will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5b0dbfb
+2023-03-08 10:59:33,085 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-08 10:59:33,085 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-08 10:59:33,085 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-03-08 10:59:33,085 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-03-08 10:59:33,085 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-03-08 10:59:33,085 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-03-08 10:59:33,130 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-03-08 10:59:33,130 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-03-08 10:59:33,152 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 11.42 seconds (JVM running for 12.679)
+2023-03-08 10:59:33,152 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 11.42 seconds (JVM running for 12.679)

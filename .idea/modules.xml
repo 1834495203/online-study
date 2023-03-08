@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/online-study.iml" filepath="$PROJECT_DIR$/.idea/online-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-base/os-base.iml" filepath="$PROJECT_DIR$/os-base/os-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-content/os-content.iml" filepath="$PROJECT_DIR$/os-content/os-content.iml" />
@@ -9,6 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/os-content/os-content-model/os-content-model.iml" filepath="$PROJECT_DIR$/os-content/os-content-model/os-content-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-content/os-content-service/os-content-service.iml" filepath="$PROJECT_DIR$/os-content/os-content-service/os-content-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-generator/os-generator.iml" filepath="$PROJECT_DIR$/os-generator/os-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-media/os-media.iml" filepath="$PROJECT_DIR$/os-media/os-media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-media/os-media-api/os-media-api.iml" filepath="$PROJECT_DIR$/os-media/os-media-api/os-media-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-media/os-media-model/os-media-model.iml" filepath="$PROJECT_DIR$/os-media/os-media-model/os-media-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-media/os-media-service/os-media-service.iml" filepath="$PROJECT_DIR$/os-media/os-media-service/os-media-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-parent/os-parent.iml" filepath="$PROJECT_DIR$/os-parent/os-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-system/os-system.iml" filepath="$PROJECT_DIR$/os-system/os-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-system/os-system-api/os-system-api.iml" filepath="$PROJECT_DIR$/os-system/os-system-api/os-system-api.iml" />
