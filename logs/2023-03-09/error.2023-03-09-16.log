@@ -1,0 +1,32 @@
+2023-03-09 16:01:41,296 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63050 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63050 or configure this application to listen on another port.
+
+2023-03-09 16:02:29,870 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63050 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63050 or configure this application to listen on another port.
+
+2023-03-09 16:08:28,276 ERROR [http-nio-63051-exec-2][GlobalExceptionHandler.java:42] - 异常信息捕获: Maximum upload size exceeded; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field file exceeds its maximum permitted size of 1048576 bytes.
+2023-03-09 16:12:59,373 ERROR [http-nio-63051-exec-5][GlobalExceptionHandler.java:42] - 异常信息捕获: Maximum upload size exceeded; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field file exceeds its maximum permitted size of 1048576 bytes.
+2023-03-09 16:14:05,658 ERROR [http-nio-63051-exec-5][MediaFileServiceImpl.java:240] - 文件上传失败------>a/b/abcdefg/chunk/0 not a regular file
+2023-03-09 16:15:37,882 ERROR [http-nio-63051-exec-1][MediaFileServiceImpl.java:240] - 文件上传失败------>a/b/abcdefg/chunk/ not a regular file

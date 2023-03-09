@@ -2,7 +2,7 @@
 server:
   servlet:
     context-path: /media
-  port: 63050
+  port: 63051
 spring:
   application:
     name: media-api

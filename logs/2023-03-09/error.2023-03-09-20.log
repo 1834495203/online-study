@@ -1,0 +1,5 @@
+2023-03-09 20:32:44,443 ERROR [http-nio-63051-exec-1][MediaFileServiceImpl.java:229] - 文件c/b/cbe990883ae8d49cfd21ce3571b29379/cbe990883ae8d49cfd21ce3571b29379.mp4出错, 错误信息: java.lang.InterruptedException
+2023-03-09 20:32:44,527 ERROR [http-nio-63051-exec-1][GlobalExceptionHandler.java:42] - 异常信息捕获: null
+2023-03-09 20:33:37,114 ERROR [http-nio-63051-exec-1][MediaFileServiceImpl.java:242] - 校验文件md5值不一致, 原始文件:cbe990883ae8d49cfd21ce3571b29379, 合并文件:0c37ad0d4399dfe8300700804f8cac94
+2023-03-09 20:40:54,343 ERROR [http-nio-63051-exec-5][MediaFileServiceImpl.java:246] - 校验文件md5值不一致, 原始文件:cbe990883ae8d49cfd21ce3571b29379, 合并文件:0c37ad0d4399dfe8300700804f8cac94
+2023-03-09 20:46:11,576 ERROR [http-nio-63051-exec-10][MediaFileServiceImpl.java:246] - 校验文件md5值不一致, 原始文件:cbe990883ae8d49cfd21ce3571b29379, 合并文件:0c37ad0d4399dfe8300700804f8cac94

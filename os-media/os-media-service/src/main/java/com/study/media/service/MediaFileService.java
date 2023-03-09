@@ -2,6 +2,7 @@ package com.study.media.service;
 
 import com.study.base.model.PageParams;
 import com.study.base.model.PageResult;
+import com.study.base.model.RestResponse;
 import com.study.media.model.dto.QueryMediaParamsDto;
 import com.study.media.model.dto.UploadFileParamsDto;
 import com.study.media.model.dto.UploadFileResultDto;
@@ -44,4 +45,43 @@ public interface MediaFileService {
      */
     MediaFiles uploadMediaFile2Db(String fileMd5, UploadFileParamsDto fileParamsDto,
                                          Long companyId, String bucket, String filePath);
+
+    /**
+     * 检查文件是否存在
+     * @param fileMd5 文件的md5
+     * @return  false不存在，true存在
+     * @author GLaDOS
+     */
+    RestResponse<Boolean> checkFile(String fileMd5);
+
+    /**
+     * 检查分块是否存在
+     * @param fileMd5  文件的md5
+     * @param chunkIndex  分块序号
+     * @return  false不存在，true存在
+     * @author GLaDOS
+     */
+    RestResponse<Boolean> checkChunk(String fileMd5, int chunkIndex);
+
+    /**
+     * 上传分块
+     * @param fileMd5  文件md5
+     * @param chunk  分块序号
+     * @param localFilePath  文件本地路径
+     * @return RestResponse
+     * @author GLaDOS
+     */
+    RestResponse<Boolean> uploadChunk(String fileMd5, int chunk, String localFilePath);
+
+    /**
+     * 合并分块
+     * @param companyId  机构id
+     * @param fileMd5  文件md5
+     * @param chunkTotal 分块总和
+     * @param uploadFileParamsDto 文件信息
+     * @return RestResponse
+     * @author GLaDOS
+     */
+    RestResponse<Boolean> mergeChunks(Long companyId,String fileMd5,int chunkTotal,UploadFileParamsDto uploadFileParamsDto);
+
 }
