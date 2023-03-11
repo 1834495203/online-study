@@ -2,6 +2,7 @@ package com.study.content.service;
 
 import com.study.base.model.PageParams;
 import com.study.base.model.PageResult;
+import com.study.base.model.RestResponse;
 import com.study.content.model.dto.AddCourseDto;
 import com.study.content.model.dto.AlterCourseDto;
 import com.study.content.model.dto.CourseBaseInfoDto;
@@ -44,4 +45,11 @@ public interface CourseBaseInfoService {
      * @return 全部课程信息
      */
     CourseBaseInfoDto updateCourseBase(Long companyId, AlterCourseDto alterCourseDto);
+
+    /**
+     * 根据课程id删除课程
+     * @param id 课程id
+     * @return msgModel
+     */
+    RestResponse<Boolean> deleteCourseById(Long id);
 }

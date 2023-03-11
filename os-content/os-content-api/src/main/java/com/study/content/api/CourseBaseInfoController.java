@@ -3,6 +3,7 @@ package com.study.content.api;
 import com.study.base.exception.ValidationGroups;
 import com.study.base.model.PageParams;
 import com.study.base.model.PageResult;
+import com.study.base.model.RestResponse;
 import com.study.content.model.dto.AddCourseDto;
 import com.study.content.model.dto.AlterCourseDto;
 import com.study.content.model.dto.CourseBaseInfoDto;
@@ -55,5 +56,11 @@ public class CourseBaseInfoController {
         Long companyId = 22L;
 
         return courseBaseInfoService.updateCourseBase(companyId, alterCourseDto);
+    }
+
+    @ApiOperation("删除课程信息")
+    @RequestMapping(value = "/course/{id}", method = RequestMethod.DELETE)
+    public RestResponse<Boolean> deleteCourseById(@PathVariable Long id){
+        return courseBaseInfoService.deleteCourseById(id);
     }
 }

@@ -7,9 +7,11 @@ import com.study.base.exception.CommonError;
 import com.study.base.exception.OSException;
 import com.study.base.model.PageParams;
 import com.study.base.model.PageResult;
+import com.study.base.model.RestResponse;
 import com.study.content.mapper.CourseBaseMapper;
 import com.study.content.mapper.CourseCategoryMapper;
 import com.study.content.mapper.CourseMarketMapper;
+import com.study.content.mapper.TeachplanMapper;
 import com.study.content.model.dto.AddCourseDto;
 import com.study.content.model.dto.AlterCourseDto;
 import com.study.content.model.dto.CourseBaseInfoDto;
@@ -17,6 +19,7 @@ import com.study.content.model.dto.QueryCourseParamsDto;
 import com.study.content.model.po.CourseBase;
 import com.study.content.model.po.CourseCategory;
 import com.study.content.model.po.CourseMarket;
+import com.study.content.model.po.Teachplan;
 import com.study.content.service.CourseBaseInfoService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
@@ -43,6 +46,9 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
     @Autowired
     private CourseMarketServiceImpl courseMarketService;
+
+    @Autowired
+    private TeachplanMapper teachplanMapper;
 
     @Override
     public PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto) {
@@ -192,6 +198,27 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         //对营销表有则更新, 没有则添加
         this.saveCourseMarket(courseMarket);
         return getCourseBaseInfo(id);
+    }
+
+    @Override
+    public RestResponse<Boolean> deleteCourseById(Long id) {
+        //先删除courseBase中的课程信息
+        int i = courseBaseMapper.deleteById(id);
+        if (i >= 0) {
+            //再删除其教学计划
+            LambdaQueryWrapper<Teachplan> queryWrapper = new LambdaQueryWrapper<>();
+            queryWrapper.eq(Teachplan::getCourseId, id);
+            List<Teachplan> teachPlans = teachplanMapper.selectList(queryWrapper);
+            if (teachPlans != null){
+                //当教学计划不为空时删除
+                for (Teachplan tp : teachPlans) {
+                    //删除其教学计划
+                    teachplanMapper.deleteById(tp.getId());
+                }
+            }
+            return RestResponse.success(true);
+        }
+        return RestResponse.success(false, "没有此id, 删除失败");
     }
 
     private int saveCourseMarket(CourseMarket courseMarket){

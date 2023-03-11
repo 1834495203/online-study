@@ -1,9 +1,11 @@
 package com.study.content.api;
 
+import com.study.content.model.dto.BindTeachPlanMediaDto;
 import com.study.content.model.dto.SaveTeachPlanDto;
 import com.study.content.model.dto.TeachPlanDto;
 import com.study.content.service.TeachPlanService;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,5 +31,11 @@ public class TeachPlanController {
     @RequestMapping(value = "teachplan", method = RequestMethod.POST)
     public void saveTeachPlan(@RequestBody SaveTeachPlanDto saveTeachPlanDto){
         teachPlanService.saveTeachPlan(saveTeachPlanDto);
+    }
+
+    @ApiModelProperty("教学计划和媒资信息绑定")
+    @RequestMapping(value = "teachplan/association/media", method = RequestMethod.POST)
+    public void associationMedia(@RequestBody BindTeachPlanMediaDto bindTeachPlanMediaDto){
+
     }
 }

@@ -1,0 +1,886 @@
+2023-03-10 10:59:32,109 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-10 10:59:32,109 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-03-10 10:59:32,109 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-10 10:59:32,109 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-03-10 10:59:32,124 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-10 10:59:32,124 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-10 10:59:32,124 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-10 10:59:32,124 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-10 10:59:32,140 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-10 10:59:32,140 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-10 10:59:32,140 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-10 10:59:32,140 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-10 10:59:32,140 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-10 10:59:32,140 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-10 10:59:32,171 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-10 10:59:32,171 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-10 10:59:32,343 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-10 10:59:32,499 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-03-10 10:59:32,499 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-03-10 10:59:37,097 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[swagger-dev.yaml] & group[xuecheng-plus-common]
+2023-03-10 10:59:37,097 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[swagger-dev.yaml] & group[xuecheng-plus-common]
+2023-03-10 10:59:40,098 DEBUG [main][NacosPropertySourceBuilder.java:93] - Loading nacos data, dataId: 'media-service-dev.yaml', group: 'os', data: spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xc148_media?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: 123456
+  cloud:
+   config:
+    override-none: true
+
+minio:
+  endpoint: http://localhost:9000
+  accessKey: minioadmin
+  secretKey: minioadmin
+  bucket:
+    files: mediafiles
+    videofiles: video
+xxl:
+  job:
+    admin: 
+      addresses: http://localhost:8088/xxl-job-admin
+    executor:
+      appname: media-process-service
+      address: 
+      ip: 
+      port: 9999
+      logpath: /data/applogs/xxl-job/jobhandler
+      logretentiondays: 30
+    accessToken: default_token
+
+videoprocess:
+ ffmpegpath: D:/soft/ffmpeg/ffmpeg.exe
+
+
+2023-03-10 10:59:40,098 DEBUG [main][NacosPropertySourceBuilder.java:93] - Loading nacos data, dataId: 'media-service-dev.yaml', group: 'os', data: spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xc148_media?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: 123456
+  cloud:
+   config:
+    override-none: true
+
+minio:
+  endpoint: http://localhost:9000
+  accessKey: minioadmin
+  secretKey: minioadmin
+  bucket:
+    files: mediafiles
+    videofiles: video
+xxl:
+  job:
+    admin: 
+      addresses: http://localhost:8088/xxl-job-admin
+    executor:
+      appname: media-process-service
+      address: 
+      ip: 
+      port: 9999
+      logpath: /data/applogs/xxl-job/jobhandler
+      logretentiondays: 30
+    accessToken: default_token
+
+videoprocess:
+ ffmpegpath: D:/soft/ffmpeg/ffmpeg.exe
+
+
+2023-03-10 10:59:43,099 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[media-api] & group[os]
+2023-03-10 10:59:43,099 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[media-api] & group[os]
+2023-03-10 10:59:46,107 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[media-api.yaml] & group[os]
+2023-03-10 10:59:46,107 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[media-api.yaml] & group[os]
+2023-03-10 10:59:49,108 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[media-api-dev.yaml] & group[os]
+2023-03-10 10:59:49,108 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[media-api-dev.yaml] & group[os]
+2023-03-10 10:59:49,108 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-media-api-dev.yaml,os'}, BootstrapPropertySource {name='bootstrapProperties-media-api.yaml,os'}, BootstrapPropertySource {name='bootstrapProperties-media-api,os'}, BootstrapPropertySource {name='bootstrapProperties-media-service-dev.yaml,os'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,xuecheng-plus-common'}]
+2023-03-10 10:59:49,108 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-media-api-dev.yaml,os'}, BootstrapPropertySource {name='bootstrapProperties-media-api.yaml,os'}, BootstrapPropertySource {name='bootstrapProperties-media-api,os'}, BootstrapPropertySource {name='bootstrapProperties-media-service-dev.yaml,os'}, BootstrapPropertySource {name='bootstrapProperties-swagger-dev.yaml,xuecheng-plus-common'}]
+2023-03-10 10:59:49,124 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-03-10 10:59:49,124 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-03-10 10:59:50,015 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-10 10:59:50,015 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-10 10:59:50,077 INFO [main][GenericScope.java:295] - BeanFactory id=ccded87a-6505-3cfe-be34-1c2017ffb66b
+2023-03-10 10:59:50,077 INFO [main][GenericScope.java:295] - BeanFactory id=ccded87a-6505-3cfe-be34-1c2017ffb66b
+2023-03-10 10:59:50,390 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63051 (http)
+2023-03-10 10:59:50,390 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63051 (http)
+2023-03-10 10:59:50,390 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63051"]
+2023-03-10 10:59:50,390 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63051"]
+2023-03-10 10:59:50,390 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-03-10 10:59:50,390 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-03-10 10:59:50,390 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-03-10 10:59:50,390 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-03-10 10:59:50,484 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-03-10 10:59:50,484 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-03-10 10:59:50,484 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1344 ms
+2023-03-10 10:59:50,484 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1344 ms
+2023-03-10 10:59:50,593 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-10 10:59:50,593 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-10 10:59:50,640 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@71a3e05c'
+2023-03-10 10:59:50,640 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@71a3e05c'
+2023-03-10 10:59:50,640 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-03-10 10:59:50,640 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-03-10 10:59:51,218 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.insert
+2023-03-10 10:59:51,218 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.insert
+2023-03-10 10:59:51,234 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.delete
+2023-03-10 10:59:51,234 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.delete
+2023-03-10 10:59:51,234 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.deleteByMap
+2023-03-10 10:59:51,234 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.deleteByMap
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.deleteById
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.deleteById
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.update
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.update
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.updateById
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.updateById
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectById
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectById
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectBatchIds
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectBatchIds
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectByMap
+2023-03-10 10:59:51,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectByMap
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectOne
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectOne
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectCount
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectCount
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectMaps
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectMaps
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectMapsPage
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectMapsPage
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectObjs
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectObjs
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectList
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectList
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectPage
+2023-03-10 10:59:51,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaFilesMapper.selectPage
+2023-03-10 10:59:52,109 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2023-03-10 10:59:52,109 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2023-03-10 10:59:52,125 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-10 10:59:52,125 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-10 10:59:52,156 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-10 10:59:52,156 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-10 10:59:52,156 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-10 10:59:52,156 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-10 10:59:52,156 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-10 10:59:52,156 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-10 10:59:52,156 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-10 10:59:52,156 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-10 10:59:52,172 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-10 10:59:52,172 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-10 10:59:52,172 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-10 10:59:52,172 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-10 10:59:52,172 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-10 10:59:52,172 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-10 10:59:52,172 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-10 10:59:52,172 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-10 10:59:52,187 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-10 10:59:52,187 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-10 10:59:52,187 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-10 10:59:52,187 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-10 10:59:52,187 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-10 10:59:52,187 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-10 10:59:52,187 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-10 10:59:52,187 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-10 10:59:52,187 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-10 10:59:52,187 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-10 10:59:52,187 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-10 10:59:52,187 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-10 10:59:52,187 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-10 10:59:52,234 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-10 10:59:52,234 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-10 10:59:53,704 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-10 10:59:53,704 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-10 10:59:53,704 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-10 10:59:53,704 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-10 10:59:55,172 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-10 10:59:55,172 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.insert
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.insert
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.delete
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.delete
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.deleteByMap
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.deleteByMap
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.deleteById
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.deleteById
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.deleteBatchIds
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.deleteBatchIds
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.update
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.update
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.updateById
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.updateById
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectById
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectById
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectBatchIds
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectBatchIds
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectByMap
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectByMap
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectOne
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectOne
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectCount
+2023-03-10 10:59:55,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectCount
+2023-03-10 10:59:55,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectMaps
+2023-03-10 10:59:55,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectMaps
+2023-03-10 10:59:55,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectMapsPage
+2023-03-10 10:59:55,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectMapsPage
+2023-03-10 10:59:55,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectObjs
+2023-03-10 10:59:55,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectObjs
+2023-03-10 10:59:55,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectList
+2023-03-10 10:59:55,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectList
+2023-03-10 10:59:55,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectPage
+2023-03-10 10:59:55,235 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessHistoryMapper.selectPage
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.insert
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.insert
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.delete
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.delete
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.deleteByMap
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.deleteByMap
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.deleteById
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.deleteById
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.deleteBatchIds
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.deleteBatchIds
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.update
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.update
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.updateById
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.updateById
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectById
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectById
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectBatchIds
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectBatchIds
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectByMap
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectByMap
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectOne
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectOne
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectCount
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectCount
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectMaps
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectMaps
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectMapsPage
+2023-03-10 10:59:55,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectMapsPage
+2023-03-10 10:59:55,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectObjs
+2023-03-10 10:59:55,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectObjs
+2023-03-10 10:59:55,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectList
+2023-03-10 10:59:55,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectList
+2023-03-10 10:59:55,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectPage
+2023-03-10 10:59:55,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MediaProcessMapper.selectPage
+2023-03-10 10:59:55,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.insert
+2023-03-10 10:59:55,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.insert
+2023-03-10 10:59:55,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.delete
+2023-03-10 10:59:55,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.delete
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.deleteByMap
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.deleteByMap
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.deleteById
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.deleteById
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.update
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.update
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.updateById
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.updateById
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectById
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectById
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectByMap
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectByMap
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectOne
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectOne
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectCount
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectCount
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectMaps
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectMaps
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectObjs
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectObjs
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectList
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectList
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectPage
+2023-03-10 10:59:55,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageHistoryMapper.selectPage
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.insert
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.insert
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.delete
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.delete
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.deleteByMap
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.deleteByMap
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.deleteById
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.deleteById
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.deleteBatchIds
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.deleteBatchIds
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.update
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.update
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.updateById
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.updateById
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectById
+2023-03-10 10:59:55,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectById
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectBatchIds
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectBatchIds
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectByMap
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectByMap
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectOne
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectOne
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectCount
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectCount
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectMaps
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectMaps
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectMapsPage
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectMapsPage
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectObjs
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectObjs
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectList
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectList
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectPage
+2023-03-10 10:59:55,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.media.mapper.MqMessageMapper.selectPage
+2023-03-10 10:59:55,329 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:jobTest, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@1de7f898[class com.study.media.service.impl.JobDispatcherServiceImpl#testJob]
+2023-03-10 10:59:55,329 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:jobTest, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@1de7f898[class com.study.media.service.impl.JobDispatcherServiceImpl#testJob]
+2023-03-10 10:59:55,375 DEBUG [Thread-60][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2023-03-10 10:59:55,375 DEBUG [Thread-60][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2023-03-10 10:59:55,391 DEBUG [Thread-60][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 24
+2023-03-10 10:59:55,391 DEBUG [Thread-60][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 24
+2023-03-10 10:59:55,407 DEBUG [Thread-60][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-10 10:59:55,407 DEBUG [Thread-60][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-10 10:59:55,407 DEBUG [Thread-60][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-10 10:59:55,407 DEBUG [Thread-60][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-10 10:59:55,422 DEBUG [Thread-60][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2023-03-10 10:59:55,422 DEBUG [Thread-60][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2023-03-10 10:59:55,422 DEBUG [Thread-60][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-10 10:59:55,422 DEBUG [Thread-60][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:1036] - Platform: Windows
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:1036] - Platform: Windows
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:897] - Java version: 8
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:897] - Java version: 8
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:257] - direct buffer constructor: available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:257] - direct buffer constructor: available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\asus\AppData\Local\Temp (java.io.tmpdir)
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\asus\AppData\Local\Temp (java.io.tmpdir)
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 1875378176 bytes
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 1875378176 bytes
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-10 10:59:55,422 DEBUG [Thread-60][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-10 10:59:55,438 DEBUG [Thread-60][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2023-03-10 10:59:55,438 DEBUG [Thread-60][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2023-03-10 10:59:55,438 DEBUG [Thread-60][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2023-03-10 10:59:55,438 DEBUG [Thread-60][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2023-03-10 10:59:55,438 DEBUG [Thread-60][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-10 10:59:55,438 DEBUG [Thread-60][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-10 10:59:55,438 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-03-10 10:59:55,438 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-03-10 10:59:55,438 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-03-10 10:59:55,438 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-03-10 10:59:55,438 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-03-10 10:59:55,438 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-03-10 10:59:55,438 DEBUG [main][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-03-10 10:59:55,438 DEBUG [main][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-03-10 10:59:55,438 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-03-10 10:59:55,438 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-03-10 10:59:55,438 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-03-10 10:59:55,438 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-03-10 10:59:55,454 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-03-10 10:59:55,454 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-03-10 10:59:55,454 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2&clientIP=192.168.137.1&serviceName=os%40%40media-api&udpPort=60531&clusters=DEFAULT, body: {}
+2023-03-10 10:59:55,454 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2&clientIP=192.168.137.1&serviceName=os%40%40media-api&udpPort=60531&clusters=DEFAULT, body: {}
+2023-03-10 10:59:55,500 DEBUG [Thread-60][DefaultChannelId.java:79] - -Dio.netty.processId: 15608 (auto-detected)
+2023-03-10 10:59:55,500 DEBUG [Thread-60][DefaultChannelId.java:79] - -Dio.netty.processId: 15608 (auto-detected)
+2023-03-10 10:59:55,500 DEBUG [Thread-60][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2023-03-10 10:59:55,500 DEBUG [Thread-60][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2023-03-10 10:59:55,500 DEBUG [Thread-60][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2023-03-10 10:59:55,500 DEBUG [Thread-60][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2023-03-10 10:59:55,766 DEBUG [Thread-60][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-10 10:59:55,766 DEBUG [Thread-60][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-10 10:59:55,766 DEBUG [Thread-60][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-10 10:59:55,766 DEBUG [Thread-60][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-10 10:59:56,032 DEBUG [Thread-60][DefaultChannelId.java:101] - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2023-03-10 10:59:56,032 DEBUG [Thread-60][DefaultChannelId.java:101] - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2023-03-10 10:59:56,032 DEBUG [Thread-60][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-03-10 10:59:56,032 DEBUG [Thread-60][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-03-10 10:59:56,032 DEBUG [Thread-60][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-10 10:59:56,032 DEBUG [Thread-60][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 18
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 18
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 18
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 18
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-10 10:59:56,063 DEBUG [Thread-60][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-10 10:59:56,079 DEBUG [Thread-60][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2023-03-10 10:59:56,079 DEBUG [Thread-60][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2023-03-10 10:59:56,079 DEBUG [Thread-60][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-10 10:59:56,079 DEBUG [Thread-60][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-10 10:59:56,079 DEBUG [Thread-60][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-10 10:59:56,079 DEBUG [Thread-60][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-10 10:59:56,079 INFO [Thread-60][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2023-03-10 10:59:56,079 INFO [Thread-60][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2023-03-10 10:59:56,157 DEBUG [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:51] - >>>>>>>>>>> xxl-job registry success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='media-process-service', registryValue='http://192.168.137.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2023-03-10 10:59:56,157 DEBUG [xxl-job, executor ExecutorRegistryThread][ExecutorRegistryThread.java:51] - >>>>>>>>>>> xxl-job registry success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='media-process-service', registryValue='http://192.168.137.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2023-03-10 10:59:57,517 ERROR [main][NamingProxy.java:617] - [NA] failed to request
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:407)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateService(HostReactor.java:382)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateServiceNow(HostReactor.java:345)
+	at com.alibaba.nacos.client.naming.core.HostReactor.getServiceInfo(HostReactor.java:320)
+	at com.alibaba.nacos.client.naming.core.HostReactor.subscribe(HostReactor.java:139)
+	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:457)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:131)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.study.MediaApplication.main(MediaApplication.java:11)
+2023-03-10 10:59:57,517 ERROR [main][NamingProxy.java:617] - [NA] failed to request
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:407)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateService(HostReactor.java:382)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateServiceNow(HostReactor.java:345)
+	at com.alibaba.nacos.client.naming.core.HostReactor.getServiceInfo(HostReactor.java:320)
+	at com.alibaba.nacos.client.naming.core.HostReactor.subscribe(HostReactor.java:139)
+	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:457)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:131)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.study.MediaApplication.main(MediaApplication.java:11)
+2023-03-10 10:59:57,517 DEBUG [main][NamingProxy.java:530] - request localhost:8848 failed.
+ErrCode:500, ErrMsg:Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:407)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateService(HostReactor.java:382)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateServiceNow(HostReactor.java:345)
+	at com.alibaba.nacos.client.naming.core.HostReactor.getServiceInfo(HostReactor.java:320)
+	at com.alibaba.nacos.client.naming.core.HostReactor.subscribe(HostReactor.java:139)
+	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:457)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:131)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.study.MediaApplication.main(MediaApplication.java:11)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 25 more
+2023-03-10 10:59:57,517 DEBUG [main][NamingProxy.java:530] - request localhost:8848 failed.
+ErrCode:500, ErrMsg:Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:407)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateService(HostReactor.java:382)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateServiceNow(HostReactor.java:345)
+	at com.alibaba.nacos.client.naming.core.HostReactor.getServiceInfo(HostReactor.java:320)
+	at com.alibaba.nacos.client.naming.core.HostReactor.subscribe(HostReactor.java:139)
+	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:457)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:131)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.study.MediaApplication.main(MediaApplication.java:11)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 25 more
+2023-03-10 10:59:57,517 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2&clientIP=192.168.137.1&serviceName=os%40%40media-api&udpPort=60531&clusters=DEFAULT, body: {}
+2023-03-10 10:59:57,517 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2&clientIP=192.168.137.1&serviceName=os%40%40media-api&udpPort=60531&clusters=DEFAULT, body: {}
+2023-03-10 10:59:59,549 ERROR [main][NamingProxy.java:617] - [NA] failed to request
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:407)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateService(HostReactor.java:382)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateServiceNow(HostReactor.java:345)
+	at com.alibaba.nacos.client.naming.core.HostReactor.getServiceInfo(HostReactor.java:320)
+	at com.alibaba.nacos.client.naming.core.HostReactor.subscribe(HostReactor.java:139)
+	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:457)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:131)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.study.MediaApplication.main(MediaApplication.java:11)
+2023-03-10 10:59:59,549 ERROR [main][NamingProxy.java:617] - [NA] failed to request
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:407)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateService(HostReactor.java:382)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateServiceNow(HostReactor.java:345)
+	at com.alibaba.nacos.client.naming.core.HostReactor.getServiceInfo(HostReactor.java:320)
+	at com.alibaba.nacos.client.naming.core.HostReactor.subscribe(HostReactor.java:139)
+	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:457)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:131)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.study.MediaApplication.main(MediaApplication.java:11)
+2023-03-10 10:59:59,549 DEBUG [main][NamingProxy.java:530] - request localhost:8848 failed.
+ErrCode:500, ErrMsg:Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:407)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateService(HostReactor.java:382)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateServiceNow(HostReactor.java:345)
+	at com.alibaba.nacos.client.naming.core.HostReactor.getServiceInfo(HostReactor.java:320)
+	at com.alibaba.nacos.client.naming.core.HostReactor.subscribe(HostReactor.java:139)
+	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:457)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:131)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.study.MediaApplication.main(MediaApplication.java:11)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 25 more
+2023-03-10 10:59:59,549 DEBUG [main][NamingProxy.java:530] - request localhost:8848 failed.
+ErrCode:500, ErrMsg:Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:407)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateService(HostReactor.java:382)
+	at com.alibaba.nacos.client.naming.core.HostReactor.updateServiceNow(HostReactor.java:345)
+	at com.alibaba.nacos.client.naming.core.HostReactor.getServiceInfo(HostReactor.java:320)
+	at com.alibaba.nacos.client.naming.core.HostReactor.subscribe(HostReactor.java:139)
+	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:457)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:131)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.study.MediaApplication.main(MediaApplication.java:11)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 25 more
+2023-03-10 10:59:59,549 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2&clientIP=192.168.137.1&serviceName=os%40%40media-api&udpPort=60531&clusters=DEFAULT, body: {}
+2023-03-10 10:59:59,549 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2&clientIP=192.168.137.1&serviceName=os%40%40media-api&udpPort=60531&clusters=DEFAULT, body: {}

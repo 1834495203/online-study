@@ -2,10 +2,14 @@ package com.study.content.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.study.base.exception.OSException;
 import com.study.content.mapper.TeachplanMapper;
+import com.study.content.mapper.TeachplanMediaMapper;
+import com.study.content.model.dto.BindTeachPlanMediaDto;
 import com.study.content.model.dto.SaveTeachPlanDto;
 import com.study.content.model.dto.TeachPlanDto;
 import com.study.content.model.po.Teachplan;
+import com.study.content.model.po.TeachplanMedia;
 import com.study.content.service.TeachPlanService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +23,9 @@ public class TeachPlanServiceImpl implements TeachPlanService {
 
     @Autowired
     private TeachplanMapper teachplanMapper;
+
+    @Autowired
+    private TeachplanMediaMapper teachplanMediaMapper;
 
     @Override
     public List<TeachPlanDto> findTeachPlanTree(Long courseId) {
@@ -45,6 +52,27 @@ public class TeachPlanServiceImpl implements TeachPlanService {
             BeanUtil.copyProperties(saveTeachPlanDto, teachplan);
             teachplanMapper.updateById(teachplan);
         }
+    }
+
+    @Override
+    public void associationMedia(BindTeachPlanMediaDto bindTeachPlanMediaDto) {
+
+        Long teachPlanId = bindTeachPlanMediaDto.getTeachPlanId();
+        Teachplan teachplan = teachplanMapper.selectById(teachPlanId);
+        if (teachplan == null)
+            OSException.cast("课程不存在");
+
+        //先删除原有记录, 根据课程计划的id
+        LambdaQueryWrapper<TeachplanMedia> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(TeachplanMedia::getTeachplanId, bindTeachPlanMediaDto.getTeachPlanId());
+        int delete = teachplanMediaMapper.delete(queryWrapper);
+
+        //再添加数据
+        TeachplanMedia teachplanMedia = new TeachplanMedia();
+        BeanUtil.copyProperties(bindTeachPlanMediaDto, teachplanMedia);
+        teachplanMedia.setCourseId(teachplan.getCourseId());
+        teachplanMedia.setMediaFilename(bindTeachPlanMediaDto.getFileName());
+        teachplanMediaMapper.insert(teachplanMedia);
     }
 
     /**

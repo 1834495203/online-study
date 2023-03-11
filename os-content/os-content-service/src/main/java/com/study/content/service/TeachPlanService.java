@@ -1,5 +1,6 @@
 package com.study.content.service;
 
+import com.study.content.model.dto.BindTeachPlanMediaDto;
 import com.study.content.model.dto.SaveTeachPlanDto;
 import com.study.content.model.dto.TeachPlanDto;
 
@@ -19,4 +20,10 @@ public interface TeachPlanService {
      * @param saveTeachPlanDto 课程计划
      */
     void saveTeachPlan(SaveTeachPlanDto saveTeachPlanDto);
+
+    /**
+     * 教学计划绑定媒资
+     * @param bindTeachPlanMediaDto 教学计划-媒资绑定提交数据
+     */
+    void associationMedia(BindTeachPlanMediaDto bindTeachPlanMediaDto);
 }
