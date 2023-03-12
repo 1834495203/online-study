@@ -26,14 +26,14 @@ public class ContentCodeGenerator {
 	private static final String[] TABLE_NAMES = new String[]{
 //			"mq_message",
 //			"mq_message_history"
-			 "course_base",
-			 "course_market",
-			 "teachplan",
-			 "teachplan_media",
-			 "course_teacher",
-//			 "course_publish",
-//			 "course_publish_pre"
-			"course_category"
+//			 "course_base",
+//			 "course_market",
+//			 "teachplan",
+//			 "teachplan_media",
+//			 "course_teacher",
+			 "course_publish",
+			 "course_publish_pre"
+//			"course_category"
 	};
 
 	// TODO 默认生成entity，需要生成DTO修改此变量

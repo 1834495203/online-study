@@ -1,0 +1,6 @@
+2023-03-12 18:23:13,670 ERROR [http-nio-63040-exec-2][GlobalExceptionHandler.java:29] - 异常信息捕获: 提交失败，请上传课程图片
+2023-03-12 18:24:54,036 ERROR [http-nio-63040-exec-5][GlobalExceptionHandler.java:29] - 异常信息捕获: 提交失败，还没有添加课程计划
+2023-03-12 18:25:51,996 ERROR [http-nio-63040-exec-4][GlobalExceptionHandler.java:29] - 异常信息捕获: 提交失败，还没有添加课程计划
+2023-03-12 18:25:55,877 ERROR [http-nio-63040-exec-6][GlobalExceptionHandler.java:29] - 异常信息捕获: 提交失败，还没有添加课程计划
+2023-03-12 18:30:56,153 ERROR [http-nio-63040-exec-1][GlobalExceptionHandler.java:29] - 异常信息捕获: 提交失败，还没有添加课程计划
+2023-03-12 18:35:24,729 ERROR [http-nio-63040-exec-1][GlobalExceptionHandler.java:29] - 异常信息捕获: 提交失败，还没有添加课程计划

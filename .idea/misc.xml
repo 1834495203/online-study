@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/os-system/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/os-media/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-message-sdk/pom.xml" />
+        <option value="$PROJECT_DIR$/os-message-sdk/pom.xml" />
       </list>
     </option>
   </component>

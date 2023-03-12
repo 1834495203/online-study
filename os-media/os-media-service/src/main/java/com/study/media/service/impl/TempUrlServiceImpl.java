@@ -26,7 +26,7 @@ public class TempUrlServiceImpl implements TempUrlService {
                     GetPresignedObjectUrlArgs.builder()
                             .bucket("testbuckets")
                             .method(Method.GET)
-                            .expiry(10, TimeUnit.SECONDS)
+                            .expiry(10, TimeUnit.MINUTES)
                             .object("test.mp4")
                             .build()
             );

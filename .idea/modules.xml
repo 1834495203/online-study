@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/os-media/os-media-api/os-media-api.iml" filepath="$PROJECT_DIR$/os-media/os-media-api/os-media-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-media/os-media-model/os-media-model.iml" filepath="$PROJECT_DIR$/os-media/os-media-model/os-media-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-media/os-media-service/os-media-service.iml" filepath="$PROJECT_DIR$/os-media/os-media-service/os-media-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-message-sdk/os-message-sdk.iml" filepath="$PROJECT_DIR$/os-message-sdk/os-message-sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-parent/os-parent.iml" filepath="$PROJECT_DIR$/os-parent/os-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-system/os-system.iml" filepath="$PROJECT_DIR$/os-system/os-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-system/os-system-api/os-system-api.iml" filepath="$PROJECT_DIR$/os-system/os-system-api/os-system-api.iml" />

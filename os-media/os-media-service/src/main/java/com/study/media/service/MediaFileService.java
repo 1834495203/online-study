@@ -31,9 +31,10 @@ public interface MediaFileService {
      * @param companyId 机构id
      * @param fileParamsDto 文件基本参数
      * @param localFilePath 文件的下载路径
+     * @param objectName minio中的文件路径, 如果没有则是年月日
      * @return 前端需要的对象
      */
-    UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto fileParamsDto, String localFilePath);
+    UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto fileParamsDto, String localFilePath, String objectName );
 
     /**
      * 文件入库

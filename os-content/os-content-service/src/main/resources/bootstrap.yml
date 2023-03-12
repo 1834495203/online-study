@@ -5,11 +5,18 @@ spring:
     name: content-service
   cloud:
     nacos:
+      discovery:
+        namespace: d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+        group: os
       config:
         namespace: d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
         group: os
         file-extension: yaml
         refresh-enabled: true
+        shared-configs:
+          - data-id: feign.yaml
+            group: os-common
+            refresh: true
 #  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 #    url: jdbc:mysql://localhost:3306/xc148_content?serverTimezone=UTC&userUnicode=true&useSSL=false&

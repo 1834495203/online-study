@@ -12,6 +12,7 @@ import com.study.base.exception.OSException;
 import com.study.base.model.PageParams;
 import com.study.base.model.PageResult;
 import com.study.base.model.RestResponse;
+import com.study.base.utils.StringUtil;
 import com.study.media.mapper.MediaFilesMapper;
 import com.study.media.model.dto.QueryMediaParamsDto;
 import com.study.media.model.dto.UploadFileParamsDto;
@@ -80,7 +81,7 @@ public class MediaFileServiceImpl implements MediaFileService {
     @Override
     public UploadFileResultDto uploadFile(Long companyId,
                                           UploadFileParamsDto fileParamsDto,
-                                          String localFilePath) {
+                                          String localFilePath, String objectName) {
 
         //获取文件名
         String filename = fileParamsDto.getFilename();
@@ -91,15 +92,17 @@ public class MediaFileServiceImpl implements MediaFileService {
         //获取文件的md5
         String fileMd5 = getFileMd5(new File(localFilePath));
         //将文件上传至minio
-        String path;
+        if (StringUtil.isEmpty(objectName)){
+            objectName = getFilepathByDate()+fileMd5+ex;
+        }
 
         //通过依赖注入使其能被动态代理, 可以事务回滚
         MediaFiles file2Db = mediaFileServiceProxy.uploadMediaFile2Db(fileMd5,
                 fileParamsDto, companyId, this.mediaFiles,
-                (path=getFilepathByDate()+fileMd5+ex));
+                objectName);
         if (file2Db == null) OSException.cast("文件上传至数据库失败");
 
-        boolean b = uploadFile2Min(mediaFiles, path, localFilePath, mimeType);
+        boolean b = uploadFile2Min(mediaFiles, objectName, localFilePath, mimeType);
         if (!b) OSException.cast("文件上传失败");
 
         //返回准备的对象

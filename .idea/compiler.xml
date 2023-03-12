@@ -15,16 +15,17 @@
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/../../maven/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
-        <module name="os-content-service" />
-        <module name="os-content-model" />
         <module name="os-content-api" />
         <module name="os-base" />
-        <module name="os-system-service" />
-        <module name="os-system-api" />
         <module name="os-media-api" />
-        <module name="os-system-model" />
         <module name="os-media-service" />
         <module name="os-generator" />
+        <module name="os-message-sdk" />
+        <module name="os-content-service" />
+        <module name="os-content-model" />
+        <module name="os-system-service" />
+        <module name="os-system-api" />
+        <module name="os-system-model" />
         <module name="os-media-model" />
         <module name="gateway" />
       </profile>
@@ -41,6 +42,7 @@
       <module name="os-media-api" target="1.8" />
       <module name="os-media-model" target="1.8" />
       <module name="os-media-service" target="1.8" />
+      <module name="os-message-sdk" target="1.8" />
       <module name="os-parent" target="1.8" />
       <module name="os-system" target="1.8" />
       <module name="os-system-api" target="1.8" />

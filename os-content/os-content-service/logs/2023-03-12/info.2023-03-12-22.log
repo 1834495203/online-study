@@ -1,0 +1,690 @@
+2023-03-12 22:58:04,465 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[feign.yaml] & group[os-common]
+2023-03-12 22:58:04,465 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[feign.yaml] & group[os-common]
+2023-03-12 22:58:04,512 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-service] & group[os]
+2023-03-12 22:58:04,512 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-service] & group[os]
+2023-03-12 22:58:04,521 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-service.yaml] & group[os]
+2023-03-12 22:58:04,521 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-service.yaml] & group[os]
+2023-03-12 22:58:04,551 DEBUG [main][NacosPropertySourceBuilder.java:93] - Loading nacos data, dataId: 'content-service-dev.yaml', group: 'os', data: spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xc148_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: 123456
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+xxl:
+  job:
+    admin: 
+      addresses: http://127.0.0.1:8088/xxl-job-admin
+    executor:
+      appname: coursepublish-job
+      address: 
+      ip: 
+      port: 8999
+      logpath: /data/applogs/xxl-job/jobhandler
+      logretentiondays: 30
+    accessToken: default_token
+2023-03-12 22:58:04,551 DEBUG [main][NacosPropertySourceBuilder.java:93] - Loading nacos data, dataId: 'content-service-dev.yaml', group: 'os', data: spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xc148_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: 123456
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+xxl:
+  job:
+    admin: 
+      addresses: http://127.0.0.1:8088/xxl-job-admin
+    executor:
+      appname: coursepublish-job
+      address: 
+      ip: 
+      port: 8999
+      logpath: /data/applogs/xxl-job/jobhandler
+      logretentiondays: 30
+    accessToken: default_token
+2023-03-12 22:58:04,560 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-service-dev.yaml,os'}, BootstrapPropertySource {name='bootstrapProperties-content-service.yaml,os'}, BootstrapPropertySource {name='bootstrapProperties-content-service,os'}, BootstrapPropertySource {name='bootstrapProperties-feign.yaml,os-common'}]
+2023-03-12 22:58:04,560 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-service-dev.yaml,os'}, BootstrapPropertySource {name='bootstrapProperties-content-service.yaml,os'}, BootstrapPropertySource {name='bootstrapProperties-content-service,os'}, BootstrapPropertySource {name='bootstrapProperties-feign.yaml,os-common'}]
+2023-03-12 22:58:04,621 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-03-12 22:58:04,621 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-03-12 22:58:06,264 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-12 22:58:06,264 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-03-12 22:58:06,421 INFO [main][GenericScope.java:295] - BeanFactory id=982a27a4-ac80-38dd-b69b-b8509cdad3bb
+2023-03-12 22:58:06,421 INFO [main][GenericScope.java:295] - BeanFactory id=982a27a4-ac80-38dd-b69b-b8509cdad3bb
+2023-03-12 22:58:06,510 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'com.study.content.clients.MediaServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-12 22:58:06,510 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'com.study.content.clients.MediaServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-12 22:58:07,070 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-12 22:58:07,070 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-03-12 22:58:07,228 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@41a374be'
+2023-03-12 22:58:07,228 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@41a374be'
+2023-03-12 22:58:07,233 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-03-12 22:58:07,233 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-03-12 22:58:08,094 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.insert
+2023-03-12 22:58:08,094 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.insert
+2023-03-12 22:58:08,099 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.delete
+2023-03-12 22:58:08,099 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.delete
+2023-03-12 22:58:08,103 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.deleteByMap
+2023-03-12 22:58:08,103 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.deleteByMap
+2023-03-12 22:58:08,140 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.deleteById
+2023-03-12 22:58:08,140 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.deleteById
+2023-03-12 22:58:08,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-03-12 22:58:08,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-03-12 22:58:08,145 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.update
+2023-03-12 22:58:08,145 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.update
+2023-03-12 22:58:08,149 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.updateById
+2023-03-12 22:58:08,149 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.updateById
+2023-03-12 22:58:08,150 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectById
+2023-03-12 22:58:08,150 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectById
+2023-03-12 22:58:08,153 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectBatchIds
+2023-03-12 22:58:08,153 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectBatchIds
+2023-03-12 22:58:08,157 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectByMap
+2023-03-12 22:58:08,157 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectByMap
+2023-03-12 22:58:08,160 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectOne
+2023-03-12 22:58:08,160 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectOne
+2023-03-12 22:58:08,163 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectCount
+2023-03-12 22:58:08,163 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectCount
+2023-03-12 22:58:08,167 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectMaps
+2023-03-12 22:58:08,167 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectMaps
+2023-03-12 22:58:08,168 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectMapsPage
+2023-03-12 22:58:08,168 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectMapsPage
+2023-03-12 22:58:08,172 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectObjs
+2023-03-12 22:58:08,172 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectObjs
+2023-03-12 22:58:08,175 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectList
+2023-03-12 22:58:08,175 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectList
+2023-03-12 22:58:08,180 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectPage
+2023-03-12 22:58:08,180 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseBaseMapper.selectPage
+2023-03-12 22:58:08,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.insert
+2023-03-12 22:58:08,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.insert
+2023-03-12 22:58:08,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.delete
+2023-03-12 22:58:08,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.delete
+2023-03-12 22:58:08,206 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.deleteByMap
+2023-03-12 22:58:08,206 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.deleteByMap
+2023-03-12 22:58:08,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.deleteById
+2023-03-12 22:58:08,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.deleteById
+2023-03-12 22:58:08,210 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-03-12 22:58:08,210 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-03-12 22:58:08,213 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.update
+2023-03-12 22:58:08,213 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.update
+2023-03-12 22:58:08,215 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.updateById
+2023-03-12 22:58:08,215 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.updateById
+2023-03-12 22:58:08,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectById
+2023-03-12 22:58:08,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectById
+2023-03-12 22:58:08,220 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectBatchIds
+2023-03-12 22:58:08,220 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectBatchIds
+2023-03-12 22:58:08,221 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectByMap
+2023-03-12 22:58:08,221 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectByMap
+2023-03-12 22:58:08,224 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectOne
+2023-03-12 22:58:08,224 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectOne
+2023-03-12 22:58:08,227 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectCount
+2023-03-12 22:58:08,227 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectCount
+2023-03-12 22:58:08,228 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectMaps
+2023-03-12 22:58:08,228 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectMaps
+2023-03-12 22:58:08,231 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectMapsPage
+2023-03-12 22:58:08,231 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectMapsPage
+2023-03-12 22:58:08,233 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectObjs
+2023-03-12 22:58:08,233 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectObjs
+2023-03-12 22:58:08,236 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectList
+2023-03-12 22:58:08,236 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectList
+2023-03-12 22:58:08,240 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectPage
+2023-03-12 22:58:08,240 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseMarketMapper.selectPage
+2023-03-12 22:58:08,268 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-03-12 22:58:08,268 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-03-12 22:58:08,272 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.insert
+2023-03-12 22:58:08,272 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.insert
+2023-03-12 22:58:08,274 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.delete
+2023-03-12 22:58:08,274 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.delete
+2023-03-12 22:58:08,276 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.deleteByMap
+2023-03-12 22:58:08,276 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.deleteByMap
+2023-03-12 22:58:08,280 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.deleteById
+2023-03-12 22:58:08,280 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.deleteById
+2023-03-12 22:58:08,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-03-12 22:58:08,283 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-03-12 22:58:08,285 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.update
+2023-03-12 22:58:08,285 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.update
+2023-03-12 22:58:08,288 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.updateById
+2023-03-12 22:58:08,288 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.updateById
+2023-03-12 22:58:08,288 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectById
+2023-03-12 22:58:08,288 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectById
+2023-03-12 22:58:08,290 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-03-12 22:58:08,290 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-03-12 22:58:08,292 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectByMap
+2023-03-12 22:58:08,292 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectByMap
+2023-03-12 22:58:08,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectOne
+2023-03-12 22:58:08,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectOne
+2023-03-12 22:58:08,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectCount
+2023-03-12 22:58:08,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectCount
+2023-03-12 22:58:08,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectMaps
+2023-03-12 22:58:08,304 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectMaps
+2023-03-12 22:58:08,306 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-03-12 22:58:08,306 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-03-12 22:58:08,308 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectObjs
+2023-03-12 22:58:08,308 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectObjs
+2023-03-12 22:58:08,310 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectList
+2023-03-12 22:58:08,310 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectList
+2023-03-12 22:58:08,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectPage
+2023-03-12 22:58:08,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseCategoryMapper.selectPage
+2023-03-12 22:58:08,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectTreeNodes
+2023-03-12 22:58:08,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectTreeNodes
+2023-03-12 22:58:08,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.insert
+2023-03-12 22:58:08,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.insert
+2023-03-12 22:58:08,423 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.delete
+2023-03-12 22:58:08,423 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.delete
+2023-03-12 22:58:08,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.deleteByMap
+2023-03-12 22:58:08,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.deleteByMap
+2023-03-12 22:58:08,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.deleteById
+2023-03-12 22:58:08,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.deleteById
+2023-03-12 22:58:08,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.deleteBatchIds
+2023-03-12 22:58:08,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.deleteBatchIds
+2023-03-12 22:58:08,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.update
+2023-03-12 22:58:08,437 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.update
+2023-03-12 22:58:08,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.updateById
+2023-03-12 22:58:08,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.updateById
+2023-03-12 22:58:08,440 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectById
+2023-03-12 22:58:08,440 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectById
+2023-03-12 22:58:08,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectBatchIds
+2023-03-12 22:58:08,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectBatchIds
+2023-03-12 22:58:08,450 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectByMap
+2023-03-12 22:58:08,450 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectByMap
+2023-03-12 22:58:08,454 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectOne
+2023-03-12 22:58:08,454 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectOne
+2023-03-12 22:58:08,456 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectCount
+2023-03-12 22:58:08,456 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectCount
+2023-03-12 22:58:08,460 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectMaps
+2023-03-12 22:58:08,460 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectMaps
+2023-03-12 22:58:08,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectMapsPage
+2023-03-12 22:58:08,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectMapsPage
+2023-03-12 22:58:08,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectObjs
+2023-03-12 22:58:08,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectObjs
+2023-03-12 22:58:08,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectList
+2023-03-12 22:58:08,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectList
+2023-03-12 22:58:08,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectPage
+2023-03-12 22:58:08,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMapper.selectPage
+2023-03-12 22:58:08,520 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.insert
+2023-03-12 22:58:08,520 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.insert
+2023-03-12 22:58:08,522 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.delete
+2023-03-12 22:58:08,522 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.delete
+2023-03-12 22:58:08,528 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-03-12 22:58:08,528 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-03-12 22:58:08,530 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.deleteById
+2023-03-12 22:58:08,530 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.deleteById
+2023-03-12 22:58:08,532 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-03-12 22:58:08,532 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-03-12 22:58:08,535 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.update
+2023-03-12 22:58:08,535 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.update
+2023-03-12 22:58:08,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.updateById
+2023-03-12 22:58:08,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.updateById
+2023-03-12 22:58:08,538 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectById
+2023-03-12 22:58:08,538 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectById
+2023-03-12 22:58:08,540 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-03-12 22:58:08,540 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-03-12 22:58:08,542 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectByMap
+2023-03-12 22:58:08,542 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectByMap
+2023-03-12 22:58:08,545 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectOne
+2023-03-12 22:58:08,545 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectOne
+2023-03-12 22:58:08,549 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectCount
+2023-03-12 22:58:08,549 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectCount
+2023-03-12 22:58:08,553 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectMaps
+2023-03-12 22:58:08,553 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectMaps
+2023-03-12 22:58:08,557 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-03-12 22:58:08,557 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-03-12 22:58:08,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectObjs
+2023-03-12 22:58:08,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectObjs
+2023-03-12 22:58:08,563 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectList
+2023-03-12 22:58:08,563 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectList
+2023-03-12 22:58:08,570 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectPage
+2023-03-12 22:58:08,570 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.TeachplanMediaMapper.selectPage
+2023-03-12 22:58:08,604 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.insert
+2023-03-12 22:58:08,604 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.insert
+2023-03-12 22:58:08,608 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.delete
+2023-03-12 22:58:08,608 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.delete
+2023-03-12 22:58:08,612 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.deleteByMap
+2023-03-12 22:58:08,612 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.deleteByMap
+2023-03-12 22:58:08,615 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.deleteById
+2023-03-12 22:58:08,615 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.deleteById
+2023-03-12 22:58:08,618 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.deleteBatchIds
+2023-03-12 22:58:08,618 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.deleteBatchIds
+2023-03-12 22:58:08,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.update
+2023-03-12 22:58:08,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.update
+2023-03-12 22:58:08,623 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.updateById
+2023-03-12 22:58:08,623 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.updateById
+2023-03-12 22:58:08,624 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectById
+2023-03-12 22:58:08,624 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectById
+2023-03-12 22:58:08,628 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectBatchIds
+2023-03-12 22:58:08,628 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectBatchIds
+2023-03-12 22:58:08,633 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectByMap
+2023-03-12 22:58:08,633 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectByMap
+2023-03-12 22:58:08,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectOne
+2023-03-12 22:58:08,636 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectOne
+2023-03-12 22:58:08,642 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectCount
+2023-03-12 22:58:08,642 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectCount
+2023-03-12 22:58:08,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectMaps
+2023-03-12 22:58:08,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectMaps
+2023-03-12 22:58:08,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectMapsPage
+2023-03-12 22:58:08,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectMapsPage
+2023-03-12 22:58:08,653 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectObjs
+2023-03-12 22:58:08,653 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectObjs
+2023-03-12 22:58:08,656 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectList
+2023-03-12 22:58:08,656 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectList
+2023-03-12 22:58:08,660 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectPage
+2023-03-12 22:58:08,660 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishPreMapper.selectPage
+2023-03-12 22:58:08,689 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.insert
+2023-03-12 22:58:08,689 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.insert
+2023-03-12 22:58:08,695 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.delete
+2023-03-12 22:58:08,695 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.delete
+2023-03-12 22:58:08,697 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.deleteByMap
+2023-03-12 22:58:08,697 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.deleteByMap
+2023-03-12 22:58:08,700 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.deleteById
+2023-03-12 22:58:08,700 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.deleteById
+2023-03-12 22:58:08,702 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.deleteBatchIds
+2023-03-12 22:58:08,702 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.deleteBatchIds
+2023-03-12 22:58:08,707 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.update
+2023-03-12 22:58:08,707 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.update
+2023-03-12 22:58:08,714 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.updateById
+2023-03-12 22:58:08,714 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.updateById
+2023-03-12 22:58:08,714 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectById
+2023-03-12 22:58:08,714 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectById
+2023-03-12 22:58:08,717 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectBatchIds
+2023-03-12 22:58:08,717 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectBatchIds
+2023-03-12 22:58:08,721 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectByMap
+2023-03-12 22:58:08,721 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectByMap
+2023-03-12 22:58:08,724 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectOne
+2023-03-12 22:58:08,724 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectOne
+2023-03-12 22:58:08,727 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectCount
+2023-03-12 22:58:08,727 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectCount
+2023-03-12 22:58:08,729 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectMaps
+2023-03-12 22:58:08,729 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectMaps
+2023-03-12 22:58:08,732 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectMapsPage
+2023-03-12 22:58:08,732 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectMapsPage
+2023-03-12 22:58:08,736 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectObjs
+2023-03-12 22:58:08,736 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectObjs
+2023-03-12 22:58:08,742 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectList
+2023-03-12 22:58:08,742 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectList
+2023-03-12 22:58:08,744 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectPage
+2023-03-12 22:58:08,744 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CoursePublishMapper.selectPage
+2023-03-12 22:58:08,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2023-03-12 22:58:08,788 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectListByShardIndex
+2023-03-12 22:58:08,791 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.insert
+2023-03-12 22:58:08,791 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.insert
+2023-03-12 22:58:08,795 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.delete
+2023-03-12 22:58:08,795 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.delete
+2023-03-12 22:58:08,797 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.deleteByMap
+2023-03-12 22:58:08,797 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.deleteByMap
+2023-03-12 22:58:08,798 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.deleteById
+2023-03-12 22:58:08,798 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.deleteById
+2023-03-12 22:58:08,800 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2023-03-12 22:58:08,800 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.deleteBatchIds
+2023-03-12 22:58:08,803 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.update
+2023-03-12 22:58:08,803 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.update
+2023-03-12 22:58:08,805 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.updateById
+2023-03-12 22:58:08,805 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.updateById
+2023-03-12 22:58:08,806 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectById
+2023-03-12 22:58:08,806 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectById
+2023-03-12 22:58:08,807 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2023-03-12 22:58:08,807 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectBatchIds
+2023-03-12 22:58:08,809 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectByMap
+2023-03-12 22:58:08,809 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectByMap
+2023-03-12 22:58:08,813 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectOne
+2023-03-12 22:58:08,813 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectOne
+2023-03-12 22:58:08,816 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectCount
+2023-03-12 22:58:08,816 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectCount
+2023-03-12 22:58:08,820 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectMaps
+2023-03-12 22:58:08,820 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectMaps
+2023-03-12 22:58:08,822 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2023-03-12 22:58:08,822 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectMapsPage
+2023-03-12 22:58:08,826 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectObjs
+2023-03-12 22:58:08,826 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectObjs
+2023-03-12 22:58:08,828 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectList
+2023-03-12 22:58:08,828 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectList
+2023-03-12 22:58:08,830 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectPage
+2023-03-12 22:58:08,830 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageMapper.selectPage
+2023-03-12 22:58:08,862 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.insert
+2023-03-12 22:58:08,862 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.insert
+2023-03-12 22:58:08,865 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.delete
+2023-03-12 22:58:08,865 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.delete
+2023-03-12 22:58:08,867 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2023-03-12 22:58:08,867 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.deleteByMap
+2023-03-12 22:58:08,868 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2023-03-12 22:58:08,868 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.deleteById
+2023-03-12 22:58:08,870 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-03-12 22:58:08,870 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-03-12 22:58:08,875 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.update
+2023-03-12 22:58:08,875 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.update
+2023-03-12 22:58:08,879 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2023-03-12 22:58:08,879 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.updateById
+2023-03-12 22:58:08,880 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2023-03-12 22:58:08,880 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectById
+2023-03-12 22:58:08,882 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-03-12 22:58:08,882 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-03-12 22:58:08,884 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2023-03-12 22:58:08,884 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectByMap
+2023-03-12 22:58:08,887 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2023-03-12 22:58:08,887 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectOne
+2023-03-12 22:58:08,892 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2023-03-12 22:58:08,892 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectCount
+2023-03-12 22:58:08,900 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2023-03-12 22:58:08,900 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectMaps
+2023-03-12 22:58:08,904 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-03-12 22:58:08,904 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-03-12 22:58:08,906 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2023-03-12 22:58:08,906 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectObjs
+2023-03-12 22:58:08,908 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2023-03-12 22:58:08,908 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectList
+2023-03-12 22:58:08,913 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2023-03-12 22:58:08,913 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.messagesdk.mapper.MqMessageHistoryMapper.selectPage
+2023-03-12 22:58:08,992 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2023-03-12 22:58:08,992 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2023-03-12 22:58:09,159 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-12 22:58:09,159 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-12 22:58:09,160 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-12 22:58:09,160 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-12 22:58:09,172 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-12 22:58:09,172 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-03-12 22:58:09,173 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-12 22:58:09,173 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-03-12 22:58:10,780 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-12 22:58:10,780 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-12 22:58:10,799 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-12 22:58:10,799 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-12 22:58:10,964 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-12 22:58:10,964 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-03-12 22:58:10,979 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-12 22:58:10,979 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-03-12 22:58:10,980 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-12 22:58:10,980 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-03-12 22:58:10,981 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-12 22:58:10,981 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-03-12 22:58:10,985 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-12 22:58:10,985 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-03-12 22:58:10,986 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-12 22:58:10,986 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-03-12 22:58:10,988 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-12 22:58:10,988 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-03-12 22:58:10,990 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-12 22:58:10,990 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-03-12 22:58:10,992 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-12 22:58:10,992 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-03-12 22:58:10,995 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-12 22:58:10,995 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-03-12 22:58:10,999 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-12 22:58:10,999 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-03-12 22:58:10,999 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-12 22:58:10,999 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-03-12 22:58:11,000 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-12 22:58:11,000 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-03-12 22:58:11,000 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-12 22:58:11,000 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-03-12 22:58:11,001 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-12 22:58:11,001 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-03-12 22:58:11,002 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-12 22:58:11,002 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-03-12 22:58:13,497 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-12 22:58:13,497 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-03-12 22:58:14,968 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.insert
+2023-03-12 22:58:14,968 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.insert
+2023-03-12 22:58:14,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.delete
+2023-03-12 22:58:14,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.delete
+2023-03-12 22:58:14,980 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.deleteByMap
+2023-03-12 22:58:14,980 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.deleteByMap
+2023-03-12 22:58:14,984 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.deleteById
+2023-03-12 22:58:14,984 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.deleteById
+2023-03-12 22:58:14,993 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-03-12 22:58:14,993 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-03-12 22:58:14,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.update
+2023-03-12 22:58:14,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.update
+2023-03-12 22:58:15,004 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.updateById
+2023-03-12 22:58:15,004 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.updateById
+2023-03-12 22:58:15,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectById
+2023-03-12 22:58:15,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectById
+2023-03-12 22:58:15,025 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-03-12 22:58:15,025 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-03-12 22:58:15,035 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectByMap
+2023-03-12 22:58:15,035 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectByMap
+2023-03-12 22:58:15,046 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectOne
+2023-03-12 22:58:15,046 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectOne
+2023-03-12 22:58:15,051 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectCount
+2023-03-12 22:58:15,051 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectCount
+2023-03-12 22:58:15,055 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectMaps
+2023-03-12 22:58:15,055 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectMaps
+2023-03-12 22:58:15,060 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-03-12 22:58:15,060 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-03-12 22:58:15,064 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectObjs
+2023-03-12 22:58:15,064 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectObjs
+2023-03-12 22:58:15,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectList
+2023-03-12 22:58:15,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectList
+2023-03-12 22:58:15,073 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectPage
+2023-03-12 22:58:15,073 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.study.content.mapper.CourseTeacherMapper.selectPage
+2023-03-12 22:58:15,392 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 22:58:15,392 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-12 22:58:15,551 DEBUG [Thread-12][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2023-03-12 22:58:15,551 DEBUG [Thread-12][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2023-03-12 22:58:15,553 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-03-12 22:58:15,553 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-03-12 22:58:15,554 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-03-12 22:58:15,554 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-03-12 22:58:15,556 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-03-12 22:58:15,556 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-03-12 22:58:15,561 DEBUG [Thread-12][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 24
+2023-03-12 22:58:15,561 DEBUG [Thread-12][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 24
+2023-03-12 22:58:15,570 DEBUG [main][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-03-12 22:58:15,570 DEBUG [main][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-03-12 22:58:15,574 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-03-12 22:58:15,574 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [localhost:8848]
+2023-03-12 22:58:15,584 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-03-12 22:58:15,584 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-03-12 22:58:15,603 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-03-12 22:58:15,603 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-03-12 22:58:15,607 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.137.1&serviceName=DEFAULT_GROUP%40%40content-service&udpPort=62894&clusters=DEFAULT, body: {}
+2023-03-12 22:58:15,607 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.137.1&serviceName=DEFAULT_GROUP%40%40content-service&udpPort=62894&clusters=DEFAULT, body: {}
+2023-03-12 22:58:15,609 DEBUG [Thread-12][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-12 22:58:15,609 DEBUG [Thread-12][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-12 22:58:15,609 DEBUG [Thread-12][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-12 22:58:15,609 DEBUG [Thread-12][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-12 22:58:15,631 DEBUG [Thread-12][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2023-03-12 22:58:15,631 DEBUG [Thread-12][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2023-03-12 22:58:15,632 DEBUG [Thread-12][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-12 22:58:15,632 DEBUG [Thread-12][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-12 22:58:15,675 DEBUG [Thread-12][PlatformDependent.java:1036] - Platform: Windows
+2023-03-12 22:58:15,675 DEBUG [Thread-12][PlatformDependent.java:1036] - Platform: Windows
+2023-03-12 22:58:15,678 DEBUG [Thread-12][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2023-03-12 22:58:15,678 DEBUG [Thread-12][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2023-03-12 22:58:15,680 DEBUG [Thread-12][PlatformDependent0.java:897] - Java version: 8
+2023-03-12 22:58:15,680 DEBUG [Thread-12][PlatformDependent0.java:897] - Java version: 8
+2023-03-12 22:58:15,682 DEBUG [Thread-12][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2023-03-12 22:58:15,682 DEBUG [Thread-12][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2023-03-12 22:58:15,684 DEBUG [Thread-12][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2023-03-12 22:58:15,684 DEBUG [Thread-12][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2023-03-12 22:58:15,686 DEBUG [Thread-12][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2023-03-12 22:58:15,686 DEBUG [Thread-12][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2023-03-12 22:58:15,689 DEBUG [Thread-12][PlatformDependent0.java:257] - direct buffer constructor: available
+2023-03-12 22:58:15,689 DEBUG [Thread-12][PlatformDependent0.java:257] - direct buffer constructor: available
+2023-03-12 22:58:15,692 DEBUG [Thread-12][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2023-03-12 22:58:15,692 DEBUG [Thread-12][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2023-03-12 22:58:15,692 DEBUG [Thread-12][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2023-03-12 22:58:15,692 DEBUG [Thread-12][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2023-03-12 22:58:15,692 DEBUG [Thread-12][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2023-03-12 22:58:15,692 DEBUG [Thread-12][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2023-03-12 22:58:15,693 DEBUG [Thread-12][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2023-03-12 22:58:15,693 DEBUG [Thread-12][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2023-03-12 22:58:15,694 DEBUG [Thread-12][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\asus\AppData\Local\Temp (java.io.tmpdir)
+2023-03-12 22:58:15,694 DEBUG [Thread-12][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\asus\AppData\Local\Temp (java.io.tmpdir)
+2023-03-12 22:58:15,695 DEBUG [Thread-12][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-12 22:58:15,695 DEBUG [Thread-12][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-12 22:58:15,697 DEBUG [Thread-12][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 1875378176 bytes
+2023-03-12 22:58:15,697 DEBUG [Thread-12][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 1875378176 bytes
+2023-03-12 22:58:15,698 DEBUG [Thread-12][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-12 22:58:15,698 DEBUG [Thread-12][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-12 22:58:15,701 DEBUG [Thread-12][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2023-03-12 22:58:15,701 DEBUG [Thread-12][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2023-03-12 22:58:15,701 DEBUG [Thread-12][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2023-03-12 22:58:15,701 DEBUG [Thread-12][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2023-03-12 22:58:15,728 DEBUG [Thread-12][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-12 22:58:15,728 DEBUG [Thread-12][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-12 22:58:15,810 INFO [main][StartupInfoLogger.java:61] - Started MediaServiceClientTest in 17.257 seconds (JVM running for 20.095)
+2023-03-12 22:58:15,810 INFO [main][StartupInfoLogger.java:61] - Started MediaServiceClientTest in 17.257 seconds (JVM running for 20.095)
+2023-03-12 22:58:15,820 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [subscribe] content-service.yaml+os+d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+2023-03-12 22:58:15,820 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [subscribe] content-service.yaml+os+d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+2023-03-12 22:58:15,822 INFO [main][CacheData.java:92] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [add-listener] ok, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2, dataId=content-service.yaml, group=os, cnt=1
+2023-03-12 22:58:15,822 INFO [main][CacheData.java:92] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [add-listener] ok, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2, dataId=content-service.yaml, group=os, cnt=1
+2023-03-12 22:58:15,825 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [subscribe] content-service-dev.yaml+os+d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+2023-03-12 22:58:15,825 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [subscribe] content-service-dev.yaml+os+d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+2023-03-12 22:58:15,825 INFO [main][CacheData.java:92] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [add-listener] ok, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2, dataId=content-service-dev.yaml, group=os, cnt=1
+2023-03-12 22:58:15,825 INFO [main][CacheData.java:92] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [add-listener] ok, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2, dataId=content-service-dev.yaml, group=os, cnt=1
+2023-03-12 22:58:15,826 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [subscribe] feign.yaml+os-common+d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+2023-03-12 22:58:15,826 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [subscribe] feign.yaml+os-common+d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+2023-03-12 22:58:15,826 INFO [main][CacheData.java:92] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [add-listener] ok, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2, dataId=feign.yaml, group=os-common, cnt=1
+2023-03-12 22:58:15,826 INFO [main][CacheData.java:92] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [add-listener] ok, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2, dataId=feign.yaml, group=os-common, cnt=1
+2023-03-12 22:58:15,826 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [subscribe] content-service+os+d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+2023-03-12 22:58:15,826 INFO [main][ClientWorker.java:169] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [subscribe] content-service+os+d25b7fdd-7f3d-49df-a8f3-4874309f1fd2
+2023-03-12 22:58:15,827 INFO [main][CacheData.java:92] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [add-listener] ok, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2, dataId=content-service, group=os, cnt=1
+2023-03-12 22:58:15,827 INFO [main][CacheData.java:92] - [fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2] [add-listener] ok, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2, dataId=content-service, group=os, cnt=1
+2023-03-12 22:58:15,832 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=content-service.yamlosd25b7fdd-7f3d-49df-a8f3-4874309f1fd2content-service-dev.yamlosf044e7fb93e68193e3997865486c0782d25b7fdd-7f3d-49df-a8f3-4874309f1fd2content-serviceosd25b7fdd-7f3d-49df-a8f3-4874309f1fd2feign.yamlos-commond25b7fdd-7f3d-49df-a8f3-4874309f1fd2, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2}
+2023-03-12 22:58:15,832 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=content-service.yamlosd25b7fdd-7f3d-49df-a8f3-4874309f1fd2content-service-dev.yamlosf044e7fb93e68193e3997865486c0782d25b7fdd-7f3d-49df-a8f3-4874309f1fd2content-serviceosd25b7fdd-7f3d-49df-a8f3-4874309f1fd2feign.yamlos-commond25b7fdd-7f3d-49df-a8f3-4874309f1fd2, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2}
+2023-03-12 22:58:15,833 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4f23c6a2]
+2023-03-12 22:58:15,833 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4f23c6a2]
+2023-03-12 22:58:15,844 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=content-service.yamlosd25b7fdd-7f3d-49df-a8f3-4874309f1fd2content-service-dev.yamlosf044e7fb93e68193e3997865486c0782d25b7fdd-7f3d-49df-a8f3-4874309f1fd2content-serviceosd25b7fdd-7f3d-49df-a8f3-4874309f1fd2feign.yamlos-commond25b7fdd-7f3d-49df-a8f3-4874309f1fd2, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2}
+2023-03-12 22:58:15,844 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2][NacosRestTemplate.java:476] - HTTP method: POST, url: http://localhost:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=content-service.yamlosd25b7fdd-7f3d-49df-a8f3-4874309f1fd2content-service-dev.yamlosf044e7fb93e68193e3997865486c0782d25b7fdd-7f3d-49df-a8f3-4874309f1fd2content-serviceosd25b7fdd-7f3d-49df-a8f3-4874309f1fd2feign.yamlos-commond25b7fdd-7f3d-49df-a8f3-4874309f1fd2, tenant=d25b7fdd-7f3d-49df-a8f3-4874309f1fd2}
+2023-03-12 22:58:15,845 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4f23c6a2]
+2023-03-12 22:58:15,845 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848-d25b7fdd-7f3d-49df-a8f3-4874309f1fd2][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4f23c6a2]
+2023-03-12 22:58:15,914 DEBUG [Thread-12][DefaultChannelId.java:79] - -Dio.netty.processId: 18624 (auto-detected)
+2023-03-12 22:58:15,914 DEBUG [Thread-12][DefaultChannelId.java:79] - -Dio.netty.processId: 18624 (auto-detected)
+2023-03-12 22:58:15,918 DEBUG [Thread-12][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2023-03-12 22:58:15,918 DEBUG [Thread-12][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2023-03-12 22:58:15,919 DEBUG [Thread-12][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2023-03-12 22:58:15,919 DEBUG [Thread-12][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2023-03-12 22:58:16,287 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@content-service\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1678633096269,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":48516449781500} from /192.168.137.1
+2023-03-12 22:58:16,287 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@content-service\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1678633096269,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":48516449781500} from /192.168.137.1
+2023-03-12 22:58:16,312 DEBUG [Thread-12][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-12 22:58:16,312 DEBUG [Thread-12][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-12 22:58:16,313 DEBUG [Thread-12][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-12 22:58:16,313 DEBUG [Thread-12][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-12 22:58:16,462 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-12 22:58:16,462 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-03-12 22:58:16,462 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-03-12 22:58:16,464 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-03-12 22:58:16,464 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-03-12 22:58:16,462 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-03-12 22:58:16,465 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-03-12 22:58:16,465 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-03-12 22:58:16,466 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-12 22:58:16,466 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-03-12 22:58:16,467 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-12 22:58:16,467 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-12 22:58:16,472 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-03-12 22:58:16,472 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-03-12 22:58:16,473 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-03-12 22:58:16,473 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-03-12 22:58:16,473 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-03-12 22:58:16,473 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-03-12 22:58:16,719 DEBUG [Thread-12][DefaultChannelId.java:101] - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2023-03-12 22:58:16,719 DEBUG [Thread-12][DefaultChannelId.java:101] - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2023-03-12 22:58:16,737 DEBUG [Thread-12][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-03-12 22:58:16,737 DEBUG [Thread-12][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-03-12 22:58:16,737 DEBUG [Thread-12][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-12 22:58:16,737 DEBUG [Thread-12][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-12 22:58:16,771 DEBUG [Thread-12][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 18
+2023-03-12 22:58:16,771 DEBUG [Thread-12][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 18
+2023-03-12 22:58:16,771 DEBUG [Thread-12][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 18
+2023-03-12 22:58:16,771 DEBUG [Thread-12][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 18
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-12 22:58:16,772 DEBUG [Thread-12][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-12 22:58:16,773 DEBUG [Thread-12][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2023-03-12 22:58:16,773 DEBUG [Thread-12][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2023-03-12 22:58:16,773 DEBUG [Thread-12][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-12 22:58:16,773 DEBUG [Thread-12][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-12 22:58:16,795 DEBUG [Thread-12][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2023-03-12 22:58:16,795 DEBUG [Thread-12][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2023-03-12 22:58:16,796 DEBUG [Thread-12][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-12 22:58:16,796 DEBUG [Thread-12][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-12 22:58:16,796 DEBUG [Thread-12][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-12 22:58:16,796 DEBUG [Thread-12][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-12 22:58:16,807 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.137.1&serviceName=DEFAULT_GROUP%40%40content-service&udpPort=62894&clusters=DEFAULT, body: {}
+2023-03-12 22:58:16,807 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://localhost:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.137.1&serviceName=DEFAULT_GROUP%40%40content-service&udpPort=62894&clusters=DEFAULT, body: {}
+2023-03-12 22:58:16,814 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-03-12 22:58:16,814 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-03-12 22:58:16,815 ERROR [Thread-12][EmbedServer.java:93] - >>>>>>>>>>> xxl-job remoting server error.
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2023-03-12 22:58:16,815 ERROR [Thread-12][EmbedServer.java:93] - >>>>>>>>>>> xxl-job remoting server error.
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2023-03-12 22:58:19,844 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-03-12 22:58:19,844 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-03-12 22:58:19,844 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-03-12 22:58:19,844 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-03-12 22:58:22,884 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-03-12 22:58:22,884 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-03-12 22:58:22,884 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-03-12 22:58:22,884 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-03-12 22:58:22,884 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-03-12 22:58:22,884 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-03-12 22:58:22,885 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-03-12 22:58:22,885 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-03-12 22:58:22,885 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-03-12 22:58:22,885 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-03-12 22:58:22,886 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-03-12 22:58:22,886 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-03-12 22:58:22,886 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-03-12 22:58:22,886 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-03-12 22:58:22,886 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-03-12 22:58:22,886 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-03-12 22:58:22,905 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2023-03-12 22:58:22,905 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2023-03-12 22:58:22,906 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2023-03-12 22:58:22,906 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2023-03-12 22:58:22,907 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2023-03-12 22:58:22,907 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2023-03-12 22:58:22,907 INFO [Thread-11][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2023-03-12 22:58:22,907 INFO [Thread-11][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
