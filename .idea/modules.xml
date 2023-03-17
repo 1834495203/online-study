@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/online-study.iml" filepath="$PROJECT_DIR$/.idea/online-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/os-auth/os-auth.iml" filepath="$PROJECT_DIR$/os-auth/os-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-base/os-base.iml" filepath="$PROJECT_DIR$/os-base/os-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-content/os-content.iml" filepath="$PROJECT_DIR$/os-content/os-content.iml" />
       <module fileurl="file://$PROJECT_DIR$/os-content/os-content-api/os-content-api.iml" filepath="$PROJECT_DIR$/os-content/os-content-api/os-content-api.iml" />

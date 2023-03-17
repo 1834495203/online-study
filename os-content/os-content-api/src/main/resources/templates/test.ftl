@@ -5,8 +5,6 @@
         <title>Hello World!</title>
     </head>
     <body>
-    <video controls>
-        <source src="${url}"/>
-    </video>
+        <h1>我的名字是: ${names}</h1>
     </body>
 </html>

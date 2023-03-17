@@ -3,6 +3,8 @@ package com.study.content.service.impl;
 import com.alibaba.fastjson.JSON;
 import com.study.base.exception.CommonError;
 import com.study.base.exception.OSException;
+import com.study.content.clients.MediaServiceClient;
+import com.study.content.config.MultipartSupportConfig;
 import com.study.content.mapper.CourseBaseMapper;
 import com.study.content.mapper.CourseMarketMapper;
 import com.study.content.mapper.CoursePublishMapper;
@@ -19,15 +21,27 @@ import com.study.content.service.CoursePublishService;
 import com.study.content.service.TeachPlanService;
 import com.study.messagesdk.model.po.MqMessage;
 import com.study.messagesdk.service.MqMessageService;
+import freemarker.template.Configuration;
+import freemarker.template.Template;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.time.LocalDateTime;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 
+@Slf4j
 @Service
 public class CoursePublishServiceImpl implements CoursePublishService {
 
@@ -51,6 +65,9 @@ public class CoursePublishServiceImpl implements CoursePublishService {
 
     @Autowired
     private MqMessageService mqMessageService;
+
+    @Autowired
+    private MediaServiceClient mediaServiceClient;
 
     @Override
     public CoursePreviewDto getCoursePreviewInfo(Long courseId) {
@@ -156,6 +173,54 @@ public class CoursePublishServiceImpl implements CoursePublishService {
 
         //删除课程预发布表对应记录
         coursePublishPreMapper.deleteById(courseId);
+    }
+
+    @Override
+    public File generateCourseHtml(Long courseId) {
+        File file = null;
+        try {
+            Configuration configuration = new Configuration(Configuration.getVersion());
+
+            //拿到classpath路径
+            String path = Objects.requireNonNull(this.getClass().getResource("/")).getPath();
+
+            //指定模板目录
+            configuration.setDirectoryForTemplateLoading(new File(path+"/templates/"));
+
+            //指定编码
+            configuration.setDefaultEncoding("UTF-8");
+
+            //得到模板
+            Template template = configuration.getTemplate("test.ftl");
+
+            HashMap<String, Object> map = new HashMap<>();
+
+            map.put("names", "裴橘");
+
+            String html = FreeMarkerTemplateUtils.processTemplateIntoString(template, map);
+
+            //输入流
+            InputStream inputStream = IOUtils.toInputStream(html, "utf-8");
+            //输出文件
+            file = File.createTempFile("coursePublish", ".html");
+            FileOutputStream fileOutputStream = new FileOutputStream(file);
+
+            IOUtils.copy(inputStream, fileOutputStream);
+        }catch (Exception e){
+            log.error("页面静态化出错, 错误为: {}", e.getMessage());
+            e.printStackTrace();
+        }
+        return file;
+    }
+
+    @Override
+    public void uploadCourseHtml(Long courseId, File file) {
+        MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(file);
+        String s = mediaServiceClient.uploadImage(multipartFile, "course/"+courseId+".html");
+        if (s == null) {
+            log.error("远程调用走降级逻辑, 返回值为null, 课程id为: {}", courseId);
+            OSException.cast("上传静态文件异常");
+        }
     }
 
     /**

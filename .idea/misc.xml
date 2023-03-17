@@ -18,6 +18,9 @@
         <option value="$PROJECT_DIR$/os-media/pom.xml" />
         <option value="$PROJECT_DIR$/xuecheng-plus-message-sdk/pom.xml" />
         <option value="$PROJECT_DIR$/os-message-sdk/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/os-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/oss-auth/pom.xml" />
       </list>
     </option>
   </component>

@@ -30,6 +30,9 @@ spring:
           - data-id: freemarker-config-${spring.profiles.active}.yaml
             group: common
             refresh: true
+          - data-id: feign.yaml
+            group: common
+            refresh: true
 
 # 日志文件配置路径
 logging:

@@ -5,6 +5,6 @@
         <title>Hello World!</title>
     </head>
     <body>
-        <h1>我的名字是: ${name}</h1>
+        <h1>我的名字是: ${names}</h1>
     </body>
 </html>

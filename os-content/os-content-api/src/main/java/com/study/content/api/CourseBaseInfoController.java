@@ -10,9 +10,11 @@ import com.study.content.model.dto.CourseBaseInfoDto;
 import com.study.content.model.dto.QueryCourseParamsDto;
 import com.study.content.model.po.CourseBase;
 import com.study.content.service.CourseBaseInfoService;
+import com.study.util.SecurityUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -45,6 +47,11 @@ public class CourseBaseInfoController {
     @ApiOperation("通过id获取课程信息")
     @RequestMapping(value = "/course/{courseId}", method = RequestMethod.GET)
     public CourseBaseInfoDto getCourseBaseById(@PathVariable Long courseId){
+        //获取当前用户身份 测试
+//        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+//        System.out.println(principal);
+        SecurityUtil.XcUser user = SecurityUtil.getUser();
+        System.out.println(user);
         return courseBaseInfoService.getCourseBaseInfo(courseId);
     }
 

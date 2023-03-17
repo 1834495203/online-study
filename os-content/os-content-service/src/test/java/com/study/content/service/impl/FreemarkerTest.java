@@ -37,7 +37,8 @@ public class FreemarkerTest {
 
         HashMap<String, Object> map = new HashMap<>();
 
-        map.put("name", "裴橘");
+        //向模板写入数据
+        map.put("names", "裴橘");
 
         String html = FreeMarkerTemplateUtils.processTemplateIntoString(template, map);
 

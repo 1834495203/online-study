@@ -18,6 +18,7 @@
         <module name="os-content-api" />
         <module name="os-base" />
         <module name="os-media-api" />
+        <module name="os-auth" />
         <module name="os-media-service" />
         <module name="os-generator" />
         <module name="os-message-sdk" />
@@ -32,6 +33,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gateway" target="1.8" />
+      <module name="os-auth" target="1.8" />
       <module name="os-base" target="1.8" />
       <module name="os-content" target="1.8" />
       <module name="os-content-api" target="1.8" />
@@ -48,6 +50,7 @@
       <module name="os-system-api" target="1.8" />
       <module name="os-system-model" target="1.8" />
       <module name="os-system-service" target="1.8" />
+      <module name="oss-auth" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

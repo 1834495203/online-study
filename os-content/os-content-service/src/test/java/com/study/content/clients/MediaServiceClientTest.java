@@ -8,8 +8,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @SpringBootTest
 class MediaServiceClientTest {
 
@@ -21,6 +19,7 @@ class MediaServiceClientTest {
         File file = new File("D:\\header.jpg");
         MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(file);
 
-        mediaServiceClient.uploadImage(multipartFile, "image/header.jpg");
+        String s = mediaServiceClient.uploadImage(multipartFile, "image/header.jpg");
+        if (s == null) System.out.println("走了降级逻辑");
     }
 }
